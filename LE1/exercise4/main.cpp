@@ -57,9 +57,8 @@ int main() {
             input = "";
         } else if (input == "d") {
             if (numbers.empty()) {
-                cout << "no element to delete";
+                cout << "no element to delete" << endl;
             } else {
-                cout << "removing " << *numbers.rbegin() << endl;
                 numbers.pop_back();
             }
         } else if (input == "q") {
