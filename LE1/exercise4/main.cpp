@@ -49,6 +49,7 @@ int main() {
     while (input != "q") {
         cout << "Your input: ";
         cin >> input;
+        cout << input;
         if (input == "n") {
             cout << "Your number: ";
             cin >> input;
