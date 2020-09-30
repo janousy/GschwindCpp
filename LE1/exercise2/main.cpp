@@ -1,4 +1,5 @@
 #include <iostream>
+#include <numeric>
 #include <algorithm>
 
 using namespace std;
@@ -29,8 +30,8 @@ public:
 };
 
 fraction operator*(fraction a, fraction b) {
-    int f1 = __gcd(a.get_counter(), b.get_denominator());
-    int f2 = __gcd(b.get_counter(), a.get_denominator());
+    int f1 = __algo_gcd(a.get_counter(), b.get_denominator());
+    int f2 = __algo_gcd(b.get_counter(), a.get_denominator());
     return fraction((a.get_counter() / f1) * (b.get_counter() / f2),
                     (a.get_denominator() / f2) * (b.get_denominator() / f1));
 }
@@ -40,7 +41,7 @@ fraction operator/(fraction a, fraction b) {
 }
 
 fraction operator+(fraction a, fraction b) {
-    int denom = (a.get_denominator() * b.get_denominator()) / __gcd(a.get_denominator(), b.get_denominator());
+    int denom = (a.get_denominator() * b.get_denominator()) / __algo_gcd(a.get_denominator(), b.get_denominator());
     int cntr1 = denom / a.get_denominator() * a.get_counter();
     int cntr2 = denom / b.get_denominator() * b.get_counter();
 
@@ -49,7 +50,7 @@ fraction operator+(fraction a, fraction b) {
 }
 
 fraction operator-(fraction a, fraction b) {
-    int denom = (a.get_denominator() * b.get_denominator()) / __gcd(a.get_denominator(), b.get_denominator());
+    int denom = (a.get_denominator() * b.get_denominator()) / __algo_gcd(a.get_denominator(), b.get_denominator());
     int cntr1 = denom / a.get_denominator() * a.get_counter();
     int cntr2 = denom / b.get_denominator() * b.get_counter();
 

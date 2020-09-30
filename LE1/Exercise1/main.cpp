@@ -1,6 +1,9 @@
 #include <iostream>
 #include <fstream>
 
+//g++ main.cpp -o main
+//./main "input.txt" "output.txt"
+
 /* Exercise 1.1
 Implement a program that converts Unix style text files to MSDOS
 style text files and vice-versa
@@ -21,21 +24,17 @@ int main(int argc, char *argv[]) {
     char c;
     bool stream_ended = false;
 
-    for (;;) {
-        if (!ifs.good()) {
-            std::cout << "stream ended" << std::endl;
-            stream_ended = true;
-            break;
+    if (ifs.is_open()) {
+        for (;;) {
+            if (ifs.get(c)) {
+                std::cout << c << std::endl;
+                if (c == '\n') ofs << "\r\n";
+                else ofs << c;
+            } else {
+                break;
+            }
         }
-        ifs.get(c);
-        //std::cout << c << std::endl;
-        if (c == '\n') {
-            std::cout << "converting line break" << std::endl;
-            ofs << "\r\n";
-        }
-        else {
-            if(!stream_ended) ofs << c;
-        }
-    }
+    } else std::cout << "cant open input file" << std::endl;
+
     return 0;
 }
