@@ -1,4 +1,5 @@
-Greeting, Mate! This is an input file
-This is a new line
-This is another new line
-End
+Hello
+This is the first line
+This is the second line
+This is the last line
+Bye

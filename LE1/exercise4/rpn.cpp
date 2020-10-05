@@ -7,7 +7,8 @@
 
 using namespace std;
 
-rpn::rpn() {}
+//A default constructor is a constructor which can be called with no arguments
+rpn::rpn() = default;
 
 bool rpn::has_valid_size(vector<int> &numbers) {
     if (numbers.size() < 2) {

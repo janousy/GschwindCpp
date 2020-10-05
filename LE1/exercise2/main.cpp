@@ -1,16 +1,19 @@
 #include <iostream>
 #include <numeric>
-#include <algorithm>
 
 using namespace std;
 
 class fraction {
+private:
     int cntr;
     int denom;
 
 public:
-    //constructor
-    fraction(int c = 0, int d = 1) : cntr(c), denom(d) { /*void*/ }
+    //constructor (not using short-hand notation)
+    fraction(int c = 0, int d = 1) {
+        cntr = c;
+        denom = d;
+    }
 
     int get_counter() {
         return cntr;
@@ -30,37 +33,32 @@ public:
 };
 
 fraction operator*(fraction a, fraction b) {
-    int f1 = __algo_gcd(a.get_counter(), b.get_denominator());
-    int f2 = __algo_gcd(b.get_counter(), a.get_denominator());
+    //shorten fraction
+    int f1 = gcd(a.get_counter(), b.get_denominator());
+    int f2 = gcd(b.get_counter(), a.get_denominator());
     return fraction((a.get_counter() / f1) * (b.get_counter() / f2),
                     (a.get_denominator() / f2) * (b.get_denominator() / f1));
 }
 
 fraction operator/(fraction a, fraction b) {
+    // using inverse fraction. again invokes operator*
     return a * fraction(b.get_denominator(), b.get_counter());
 }
 
 fraction operator+(fraction a, fraction b) {
-    int denom = (a.get_denominator() * b.get_denominator()) / __algo_gcd(a.get_denominator(), b.get_denominator());
+    int denom = (a.get_denominator() * b.get_denominator()) / gcd(a.get_denominator(), b.get_denominator());
     int cntr1 = denom / a.get_denominator() * a.get_counter();
     int cntr2 = denom / b.get_denominator() * b.get_counter();
 
     return fraction(cntr1 + cntr2, denom);
-
 }
 
 fraction operator-(fraction a, fraction b) {
-    int denom = (a.get_denominator() * b.get_denominator()) / __algo_gcd(a.get_denominator(), b.get_denominator());
+    int denom = (a.get_denominator() * b.get_denominator()) / gcd(a.get_denominator(), b.get_denominator());
     int cntr1 = denom / a.get_denominator() * a.get_counter();
     int cntr2 = denom / b.get_denominator() * b.get_counter();
 
     return fraction(cntr1 - cntr2, denom);
-
-}
-
-ostream &operator<<(ostream &os, fraction f) {
-    os << '(' << f.get_counter() << '/' << f.get_denominator() << ')';
-    return os;
 }
 
 void check_char(char ch, istream &is) {
@@ -72,10 +70,16 @@ void check_char(char ch, istream &is) {
     }
 }
 
+ostream &operator<<(ostream &os, fraction f) {
+    os << '(' << f.get_counter() << '/' << f.get_denominator() << ')';
+    return os;
+}
+
 istream &operator>>(istream &is, fraction &f) {
     fraction g;
     int counter, denom;
 
+    // extract each char from input stream, ensure correct format with check_char
     check_char('(', is);
     is >> counter;
     check_char('/', is);
@@ -91,13 +95,16 @@ istream &operator>>(istream &is, fraction &f) {
 
 int main() {
     fraction f1(2, 3);
-    fraction f2(1, 4);
+    fraction f2(1, 3);
 
     cout << "f1: " << f1 << std::endl;
     cout << "f2: " << f2 << std::endl;
 
     fraction res1 = f1 * f2;
     cout << "f1 * f2 = " << res1 << endl;
+
+    fraction res2 = f1 - f2;
+    cout << "f1 - f2 = " << res2 << endl;
 
     fraction input1;
     fraction input2;

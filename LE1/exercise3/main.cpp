@@ -30,7 +30,7 @@ int main(int argc, char *argv[]) {
     /* could be extended if wanted*/
     std::set<std::string> symbols = {".", ",", "?", "!"};
 
-
+    // is_open() => returns whether the stream is currently associated to a file
     if(dict_file.is_open()) {
         while(dict_file >> word){
             dictionary.insert(word);

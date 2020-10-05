@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Exercise1.dir/main.cpp.o"
-  "Exercise1"
-  "Exercise1.pdb"
+  "CMakeFiles/exercise1.dir/main.cpp.o"
+  "exercise1"
+  "exercise1.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Exercise1.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/exercise1.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

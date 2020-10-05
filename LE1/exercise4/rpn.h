@@ -15,6 +15,8 @@ public:
     vector<int> &divide(vector<int > &numbers);
     vector<int> &subtract(vector<int > &numbers);
     vector<int> &add(vector<int > &numbers);
+
+private:
     bool has_valid_size(vector<int> &numbers);
 };
 

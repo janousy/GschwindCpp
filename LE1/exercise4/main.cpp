@@ -46,12 +46,10 @@ int main() {
     rpn cc;
     string input;
 
+    cout << "command: " << endl;
     while (input != "q") {
-        cout << "Your input: ";
         cin >> input;
-        cout << input;
         if (input == "n") {
-            cout << "Your number: ";
             cin >> input;
             int input_int = parse_input(input);
             numbers.push_back(input_int);
