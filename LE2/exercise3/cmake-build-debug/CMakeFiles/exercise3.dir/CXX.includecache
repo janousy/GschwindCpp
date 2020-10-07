@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise3/fraction.h
+iostream
+-
+fstream
+-
+numeric
+-
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise3/main.cpp
+vector
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise3/vector
+fraction.h
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise3/fraction.h
+pvector.h
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise3/pvector.h
+rpn.h
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise3/rpn.h
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise3/pvector.h
+iostream
+-
+fstream
+-
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise3/rpn.h
+iostream
+-
+fstream
+-
+pvector.h
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise3/pvector.h
+

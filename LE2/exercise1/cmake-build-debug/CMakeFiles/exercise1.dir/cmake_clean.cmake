@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/exercise1.dir/fraction.cpp.o"
   "CMakeFiles/exercise1.dir/main.cpp.o"
   "exercise1"
   "exercise1.pdb"

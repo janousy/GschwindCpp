@@ -143,6 +143,33 @@ exercise1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise1.dir/build.make CMakeFiles/exercise1.dir/build
 .PHONY : exercise1/fast
 
+fraction.o: fraction.cpp.o
+
+.PHONY : fraction.o
+
+# target to build an object file
+fraction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise1.dir/build.make CMakeFiles/exercise1.dir/fraction.cpp.o
+.PHONY : fraction.cpp.o
+
+fraction.i: fraction.cpp.i
+
+.PHONY : fraction.i
+
+# target to preprocess a source file
+fraction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise1.dir/build.make CMakeFiles/exercise1.dir/fraction.cpp.i
+.PHONY : fraction.cpp.i
+
+fraction.s: fraction.cpp.s
+
+.PHONY : fraction.s
+
+# target to generate assembly for a file
+fraction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise1.dir/build.make CMakeFiles/exercise1.dir/fraction.cpp.s
+.PHONY : fraction.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... exercise1"
+	@echo "... fraction.o"
+	@echo "... fraction.i"
+	@echo "... fraction.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
