@@ -13,6 +13,7 @@ Upgrade your RPN calculator
 #include "fraction.h"
 #include "pvector.h"
 #include "rpn.h"
+#include "rpn.cpp"
 
 using namespace std;
 

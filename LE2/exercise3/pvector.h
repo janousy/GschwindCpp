@@ -12,6 +12,7 @@ using namespace std;
 
 template<typename T>
 class pvector {
+protected:
     string filename;
     vector<T> v;
 

@@ -6,11 +6,9 @@
 #define EXERCISE4_PLAYFIELD_H
 
 struct playfield {
-
     // the size of the field
     const static int width = 7;
     const static int height = 6;
-
 
     // these elements are used to indicate whether a given position
     // in the playing field is taken by a given player
