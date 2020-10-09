@@ -30,7 +30,6 @@ struct playfield {
     // it lands at (i, height-1)
     // implementation may be changed, interface not
     int stoneat(int x, int y) const { return rep[x][y]; }
-
 };
 
 #endif //EXERCISE4_PLAYFIELD_H
