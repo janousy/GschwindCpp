@@ -80,12 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise1/fraction.cpp">
-			<Option target="exercise1"/>
-		</Unit>
-		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise1/fraction.h">
-			<Option target="exercise1"/>
-		</Unit>
 		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise1/main.cpp">
 			<Option target="exercise1"/>
 		</Unit>
