@@ -5,6 +5,13 @@
 #include "human.cpp"
 //!! needs to be included as well for header templates
 
+/* 4-Gewinnt Implementation
+
+ g++ -Wall main.cpp -o main
+ ./main
+*/
+
+
 using namespace std;
 
 int sum_direction(int hOrg, int cOrg, int hDir, int cDir,  playfield &pf){
@@ -70,7 +77,7 @@ int main() {
     human<playfield> h1;
     human<playfield> h2;
 
-    vector<human<playfield>> players;
+    vector<human<playfield> > players;
     players.push_back(h1);
     players.push_back(h2);
 
