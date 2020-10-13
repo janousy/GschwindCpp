@@ -7,8 +7,6 @@
 
 /* 4-Gewinnt Implementation
 
- g++ -Wall main.cpp -o main
- ./main
 */
 
 
