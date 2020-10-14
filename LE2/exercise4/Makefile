@@ -1,7 +1,7 @@
 CXXFLAGS=... 
 CXXFLAGS+=-Wall -Wextra -Werror
-OBJS=main.o	# "main" file
-OBJS+=human.o   # others… 
+OBJS=main.cpp	# "main" file
+OBJS+=human.cpp   # others…
 
 all: main
 
