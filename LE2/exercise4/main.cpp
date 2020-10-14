@@ -27,30 +27,19 @@ int sum_direction(int hOrg, int wOrg, int hDir, int wDir, playfield &pf) {
     return sum;
 }
 
-bool boardFull(playfield &pf) {
-    for (int h = 0; h < pf.height; h++) {
-        for (int w = 0; w < pf.width; w++) {
-            if (pf.stoneat(w, h) == pf.none) {
-                return false;
-            }
-        }
-    }
-    return true;
-}
-
 bool game_finished(int hOrg, int wOrg, playfield &pf) {
 
     int h = hOrg;
     int w = wOrg;
-    //check vertical
+    //check vertical, (h,w) last recent coin position, 1 : 0 downwards, check sum
     if (sum_direction(h, w, 1, 0, pf) >= 3) {
         return true;
     }
-        //check horizontal
+        //check horizontal, left and right check
     else if (sum_direction(h, w, 0, 1, pf) + sum_direction(h, w, 0, -1, pf) >= 3) {
         return true;
     }
-        //check to top left and button right
+        //check to top left and button right, diagonally
     else if (sum_direction(h, w, -1, -1, pf) + sum_direction(h, w, 1, 1, pf) >= 3) {
         return true;
     }
@@ -61,6 +50,17 @@ bool game_finished(int hOrg, int wOrg, playfield &pf) {
         return false;
     }
 
+}
+
+bool boardFull(playfield &pf) {
+    for (int h = 0; h < pf.height; h++) {
+        for (int w = 0; w < pf.width; w++) {
+            if (pf.stoneat(w, h) == pf.none) {
+                return false;
+            }
+        }
+    }
+    return true;
 }
 
 void print_playfield(playfield pf) {
@@ -93,30 +93,31 @@ int main() {
 
     for (int h = 0; h < pf.height; h++) {
         for (int w = 0; w < pf.width; w++) {
-            pf.rep[w][h] = pf.none;}
+            pf.rep[w][h] = pf.none;
+        }
     }
 
     print_playfield(pf);
 
     int turn = 0;
-    for(;;) {
+    for (;;) {
         int w;
         int h = -1;
-        while (h < 0){
+        while (h < 0) {
             w = h1.play(pf);
-            h = insert_stone(pf, w, turn+1);
+            h = insert_stone(pf, w, turn + 1);
         }
 
         print_playfield(pf);
-        if (game_finished(h, w,pf)){
-            cout << "Game Finished player" << " "<< turn + 1 << " " << "won" << endl;
+        if (game_finished(h, w, pf)) {
+            cout << "Game Finished player" << " " << turn + 1 << " " << "won" << endl;
             break;
         }
-        if (boardFull(pf)){
+        if (boardFull(pf)) {
             cout << "Draw because board is full" << endl;
             break;
         }
-        turn = (turn +1) % 2;
+        turn = (turn + 1) % 2;
     }
 
     return 0;
