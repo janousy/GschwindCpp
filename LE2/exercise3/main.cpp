@@ -9,6 +9,11 @@ Upgrade your RPN calculator
 
 */
 
+/*
+ make -f Makefile
+./main
+ */
+
 #include "fraction.h"
 #include "pvector.h"
 #include "pvector.cpp"
@@ -28,10 +33,9 @@ int main() {
     rpn<double> cc2;
     rpn<fraction> cc3;
 
-    cc1.divide(pv1);
+    cc1.subtract(pv1);
     cc2.add(pv2);
     cc3.mult(pv3);
-
 
     /*  pv1.push_back(2);
       pv1.push_back(1);

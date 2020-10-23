@@ -37,7 +37,6 @@ public:
 
     void pop_back() {
         v.pop_back();
-        print_vector();
     }
 
     void readvector() {
@@ -84,3 +83,10 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
+
+/*
+- If invalid input type, no error, but vector not written, converts pushes if possible
+ => change pv2<char> to pv2<int>
+- If passing around (not by reference), pvector, including vector is copied and this version is modified
+ - see slide 109 (disable copy constructor)
+ */

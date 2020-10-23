@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise2/ex2.cpp" "/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise2/cmake-build-debug/CMakeFiles/exercise2.dir/ex2.cpp.o"
   "/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise2/main.cpp" "/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise2/cmake-build-debug/CMakeFiles/exercise2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

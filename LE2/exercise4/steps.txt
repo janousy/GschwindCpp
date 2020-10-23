@@ -1,5 +1,0 @@
-g++ -c -Wall -o main.o main.cpp
-g++ -c -Wall -o human.o human.cpp
-
-make -f Makefile
-./main

@@ -32,7 +32,8 @@ int main() {
     swap(a, b);
     c_swap(e, f);
 
-    std::cout << "finished" << std::endl;
+    std::cout << a << b << std::endl;
+    std::cout << c << d << std::endl;
 
 }
 
@@ -51,3 +52,5 @@ Answer:
     to modify the argument value in the calling function.
     Otherwise, use pass-by-value to pass arguments.
  */
+
+
