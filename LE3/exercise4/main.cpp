@@ -12,7 +12,9 @@ Make sure your RPN calculator runs fine with complex numbers
  - basic operations are implemented for complex numbers!
  - resolve issues why not readable in file
  - You can use that only if you specialize the entire class. You can't specialize just one member function of the class.
- => use template specialization for mymin function
+ => use further template specialization for mymin function (inline)
+ => serializer << and dezerializders >> are provided by std:complex<T>
+ => another way: use inheritance and override mymin function
  */
 
 #include <complex>
@@ -28,13 +30,6 @@ int main() {
     pvector<complex<long double>> pv1("/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise4/pv-complex.txt");
     rpn<complex<long double>> cc1;
 
-    complex<long double> c1(6.12234134, 324.2312341324);
-    complex<long double> c2(1.2312341324, 2.231234143);
-
-    pv1.push_back(c1);
-    pv1.push_back(c2);
     pv1.print_vector();
-
-    cc1.mymin(pv1);
-    pv1.print_vector();
+    cc1.read_input(pv1);
 }

@@ -5,6 +5,50 @@
 #include "rpn.h"
 
 template<typename T>
+void rpn<T>::read_input(pvector<T> &pv) {
+    char op;
+    while (cin.good() && op != 'q') {
+        T number;
+        cout << "command: ";
+        getline(cin, input_line);
+        istringstream iss(input_line);
+        while (iss.good() && iss >> op) {
+            switch (op) {
+                case 'n':
+                    iss >> number;
+                    pv.push_back(number);
+                    continue;
+                case 'd':
+                    if (pv.size() > 0) { pv.pop_back(); }
+                    else { cout << "cannot delete"; }
+                    continue;
+                case 'q':
+                    break;
+                case '+':
+                    add(pv);
+                    continue;
+                case '-':
+                    subtract(pv);
+                    continue;
+                case '*':
+                    multiply(pv);
+                    continue;
+                case '/':
+                    divide(pv);
+                    continue;
+                case 'm':
+                    mymin(pv);
+                    continue;
+                default:
+                    cout << "invalid input" << endl;
+                    break;
+            }
+        }
+        pv.print_vector();
+    }
+}
+
+template<typename T>
 bool rpn<T>::has_valid_size(pvector<T> &pv) {
     if (pv.size() < 2) {
         cout << "invalid operation" << endl;
@@ -29,17 +73,23 @@ void rpn<T>::mymin(pvector<T> &pv) {
 
 //compiler cannot know at run-time, what mymin on complex type might have to be used
 //thus specialization on member function needs to be inlined
-template<> inline
+//A function is an end-product that can be readily compiled into target code, so compilers hate to see potentially conflicting definitions
+template<>
+inline
 void rpn<complex<double>>::mymin(pvector<complex<double>> &pv) {
     cout << "no order on complex numbers" << endl;
     return;
 }
-template<> inline
+
+template<>
+inline
 void rpn<complex<float>>::mymin(pvector<complex<float>> &pv) {
     cout << "no order on complex numbers" << endl;
     return;
 }
-template<> inline
+
+template<>
+inline
 void rpn<complex<long double>>::mymin(pvector<complex<long double>> &pv) {
     cout << "no order on complex numbers" << endl;
     return;
@@ -71,7 +121,7 @@ void rpn<T>::subtract(pvector<T> &pv) {
 }
 
 template<typename T>
-void rpn<T>::mult(pvector<T> &pv) {
+void rpn<T>::multiply(pvector<T> &pv) {
     if (!has_valid_size(pv)) {
         return;
     } else {
@@ -97,7 +147,7 @@ void rpn<T>::divide(pvector<T> &pv) {
 }
 
 
-//template specialization not needed?
+
 /*template<typename C>
 bool rpn<complex<C>>::has_valid_size(pvector<complex<C>> &pv) {
     if (pv.size() < 2) {

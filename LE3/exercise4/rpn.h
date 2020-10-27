@@ -9,6 +9,7 @@
 #include <iostream>
 #include <fstream>
 #include "pvector.h"
+#include <map>
 #include <complex>
 
 using namespace std;
@@ -17,15 +18,18 @@ template<typename T>
 class rpn {
 private:
     bool has_valid_size(pvector<T> &pv);
+    string input_line;
 
 public:
+    void read_input(pvector<T> &pv);
+
     void mymin(pvector<T> &pv);
 
     void add(pvector<T> &pv);
 
     void subtract(pvector<T> &pv);
 
-    void mult(pvector<T> &pv);
+    void multiply(pvector<T> &pv);
 
     void divide(pvector<T> &pv);
 };
