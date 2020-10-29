@@ -1,35 +1,68 @@
-/*
-Upgrade your RPN calculator:
-Make sure your RPN calculator runs fine with complex numbers
- - Which challenge(s) did you face? How did you solve them?
- - Note: It is sufficient to use only concepts we had discussed so far in the lecture!
-*/
+#include <iostream>
+#include <fstream>
+#include <istream>
+#include<set>
 
-/*
- Challenges:
- - complex<T>, where T either float, double, or long double. How to define
- additional typename for complex type without forcing other functions to adapt?
- - basic operations are implemented for complex numbers!
- - resolve issues why not readable in file
- - You can use that only if you specialize the entire class. You can't specialize just one member function of the class.
- => use further template specialization for mymin function (inline)
- => serializer << and dezerializders >> are provided by std:complex<T>
- => another way: use inheritance and override mymin function
- */
-
-#include <complex>
-#include "pvector.h"
-#include "pvector.cpp"
-#include "rpn.h"
-#include "rpn.cpp"
-
+#include "pset.h"
+#include "pset.cpp"
+#include "persistence_traits.h"
+#include "persistence_traits.cpp"
 using namespace std;
 
+/*
+Build command:
+g++ -std=c++17 main.cpp -o main
+run command with input and output file specified:
+ ./main "text.txt" "dict.txt"
+*/
 
-int main() {
-    pvector<complex<long double>> pv1("/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise4/pv-complex.txt");
-    rpn<complex<long double>> cc1;
+int main(int argc, char *argv[]) {
 
-    pv1.print_vector();
-    cc1.read_input(pv1);
+    std::ifstream text(argv[1]);
+    //std::fstream dict_file(argv[2]);
+
+    //set<string> dictionary;
+    pset<string> dictionary (argv[2]);
+    pset<string> updatedText;
+    string word;
+
+    /* could be extended if wanted*/
+    set<string> symbols = {".", ",", "?", "!"};
+    string input;
+
+    if(text.is_open()) {
+        while(text >> word){
+            /*if last character is a symbol we remove it for special cases like the end of the sentence.
+             * word.back returns a pointer to the last char of the string.*/
+            if(symbols.count(&word.back()) != 0) word.pop_back();
+
+            /*check if word is not a symbol and not in dictionary */
+            if(symbols.count(word) == 0 && !dictionary.in_set(word)) {
+                std::cout << word << " " << "is not in the dictionary, would you like to add it? [Y,N]" << std::endl;
+                cin >> input;
+                if( input == "Y" or input == "y"){
+                    dictionary.insert(word);
+                    updatedText.insert(word);
+                }
+                else{
+                    cout << "Would you like to correct the word? [corrected word, N] " << endl;
+                    cin >> input;
+                    if( input != "N" and input != "n" ) {
+                        updatedText.insert(input);
+                    }
+                    else{
+                        updatedText.insert(word);
+                    }
+                }
+            }
+            else{
+                updatedText.insert(word);
+            }
+        }
+    }
+    else std::cout << "cant open text file" << std::endl;
+    text.close();
+    updatedText.add_filename(argv[1]);
+
+    return 0;
 }

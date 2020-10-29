@@ -1,5 +1,5 @@
 //
-// Created by Janosch Baltensperger on 23.10.20.
+// Created by Janosch Baltensperger on 07.10.20.
 //
 
 #ifndef EXERCISE3_PVECTOR_H
@@ -8,18 +8,14 @@
 #include <iostream>
 #include <fstream>
 #include "vector"
-#include "persistence_traits.h"
-#include "persistence_traits.cpp"
 
 using namespace std;
 
-template<typename T, typename P=persistence_traits<T>>
+template<typename T>
 class pvector {
-private:
+protected:
     string filename;
     vector<T> v;
-    typedef P persister;
-    typedef typename vector<T>::iterator iterator;
 
 public:
     pvector(string fname) : filename(fname) {
@@ -47,5 +43,3 @@ public:
 
 
 #endif //EXERCISE3_PVECTOR_H
-
-
