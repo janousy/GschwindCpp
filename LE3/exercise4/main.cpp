@@ -7,6 +7,7 @@
 #include "pset.cpp"
 #include "persistence_traits.h"
 #include "persistence_traits.cpp"
+
 using namespace std;
 
 /*
@@ -18,51 +19,52 @@ run command with input and output file specified:
 
 int main(int argc, char *argv[]) {
 
-    std::ifstream text(argv[1]);
-    //std::fstream dict_file(argv[2]);
+    std::ifstream text("/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise4/text.txt");
 
-    //set<string> dictionary;
-    pset<string> dictionary (argv[2]);
-    pset<string> updatedText;
+    //pset<string> dictionary (argv[2]);
+    pset<string> dictionary("/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise4/dict.txt");
+    std::ofstream updatedText("/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise4/updated.txt");
     string word;
 
     /* could be extended if wanted*/
     set<string> symbols = {".", ",", "?", "!"};
     string input;
 
-    if(text.is_open()) {
-        while(text >> word){
+    if (text.is_open()) {
+        while (text >> word) {
             /*if last character is a symbol we remove it for special cases like the end of the sentence.
              * word.back returns a pointer to the last char of the string.*/
-            if(symbols.count(&word.back()) != 0) word.pop_back();
+            string punc;
+            if (symbols.count(&word.back()) != 0) {
+                auto pos = symbols.find(&word.back());
+                string punc = *pos;
+                word.pop_back();
+            }
 
             /*check if word is not a symbol and not in dictionary */
-            if(symbols.count(word) == 0 && !dictionary.in_set(word)) {
+            if (symbols.count(word) == 0 && !dictionary.in_set(word)) {
                 std::cout << word << " " << "is not in the dictionary, would you like to add it? [Y,N]" << std::endl;
                 cin >> input;
-                if( input == "Y" or input == "y"){
+                if (input == "Y" or input == "y") {
                     dictionary.insert(word);
-                    updatedText.insert(word);
-                }
-                else{
+                    updatedText << word.append(punc) + " ";
+                } else {
                     cout << "Would you like to correct the word? [corrected word, N] " << endl;
                     cin >> input;
-                    if( input != "N" and input != "n" ) {
-                        updatedText.insert(input);
-                    }
-                    else{
-                        updatedText.insert(word);
+                    if (input != "N" and input != "n") {
+                        updatedText << input.append(punc) + " ";
+                    } else {
+                        updatedText << word.append(punc) + " ";
                     }
                 }
-            }
-            else{
-                updatedText.insert(word);
+            } else {
+                updatedText << word + " ";
             }
         }
-    }
-    else std::cout << "cant open text file" << std::endl;
+    } else std::cout << "cant open text file" << std::endl;
+
     text.close();
-    updatedText.add_filename(argv[1]);
+    updatedText.close();
 
     return 0;
 }
