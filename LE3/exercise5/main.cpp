@@ -8,7 +8,6 @@
 #include "intel.cpp"
 #include "com_dom.cpp"
 
-
 using namespace std;
 
 void print_playfield(playfield &pf) {

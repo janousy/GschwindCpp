@@ -20,7 +20,6 @@ public:
     ~dump_pointer() { delete obj; }
 
     //structure dereference (member b of object pointed to by a)
-    //why do we return a pointer?
     T *operator->() { return obj; }
 
     //TODO: clarify operator naming
@@ -139,7 +138,7 @@ int main() {
     cout << "sp3: " << sp3.count() << endl;
     sp3 = sp2;
 
-    cout << "sp1: " << sp2.count() << endl;
+    cout << "sp1: " << sp1.count() << endl;
     cout << "sp2: " << sp2.count() << endl;
     cout << "sp3: " << sp3.count() << endl;
 

@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="exercise4">
-				<Option output="/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/cmake-build-debug/exercise4" prefix_auto="0" extension_auto="0"/>
+			<Target title="exercise3">
+				<Option output="/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/cmake-build-debug/exercise3" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -52,14 +52,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise4"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise3"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="exercise4/fast">
-				<Option output="/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/cmake-build-debug/exercise4" prefix_auto="0" extension_auto="0"/>
+			<Target title="exercise3/fast">
+				<Option output="/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/cmake-build-debug/exercise3" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -73,7 +73,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise4/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise3/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -81,25 +81,25 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/fraction.cpp">
-			<Option target="exercise4"/>
+			<Option target="exercise3"/>
 		</Unit>
 		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/fraction.h">
-			<Option target="exercise4"/>
+			<Option target="exercise3"/>
 		</Unit>
 		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/main.cpp">
-			<Option target="exercise4"/>
+			<Option target="exercise3"/>
 		</Unit>
 		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/pvector.cpp">
-			<Option target="exercise4"/>
+			<Option target="exercise3"/>
 		</Unit>
 		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/pvector.h">
-			<Option target="exercise4"/>
+			<Option target="exercise3"/>
 		</Unit>
 		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/rpn.cpp">
-			<Option target="exercise4"/>
+			<Option target="exercise3"/>
 		</Unit>
 		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/rpn.h">
-			<Option target="exercise4"/>
+			<Option target="exercise3"/>
 		</Unit>
 		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

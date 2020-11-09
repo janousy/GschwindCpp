@@ -14,16 +14,16 @@ using namespace std;
 Build command:
 g++ -std=c++17 main.cpp -o main
 run command with input and output file specified:
- ./main "text.txt" "dict.txt"
+ ./main "text.txt" "dict.txt" "updated.txt"
 */
 
 int main(int argc, char *argv[]) {
 
-    std::ifstream text("/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise4/text.txt");
+    std::ifstream text(argv[1]);
 
     //pset<string> dictionary (argv[2]);
-    pset<string> dictionary("/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise4/dict.txt");
-    std::ofstream updatedText("/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise4/updated.txt");
+    pset<string> dictionary(argv[2]);
+    std::ofstream updatedText(argv[3]);
     string word;
 
     /* could be extended if wanted*/
@@ -58,7 +58,7 @@ int main(int argc, char *argv[]) {
                     }
                 }
             } else {
-                updatedText << word + " ";
+                updatedText << word.append(punc) + " ";
             }
         }
     } else std::cout << "cant open text file" << std::endl;
