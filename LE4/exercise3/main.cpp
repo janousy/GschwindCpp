@@ -63,4 +63,4 @@ int main() {
  must implement begin() and end() member functions
  should be equivalent to this:
     for (int it = obj.begin(); it =! object.end(); ++it)
- */
+*/

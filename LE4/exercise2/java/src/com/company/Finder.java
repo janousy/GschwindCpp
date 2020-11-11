@@ -3,15 +3,16 @@ package com.company;
 import java.util.Iterator;
 import java.util.regex.Matcher;
 
-public class Finder {
-    public static void findIf(Iterator iter, Matcher matcher) {
 
-        String text    =
-            "This is the text to be searched " +
-            "for occurrences of the http:// pattern.";
+public class Finder<T> {
 
-        while(iter.hasNext()) {
-            if(matcher.matches()
+        public static <T> Iterator<T> findIf(Iterator<T> it, ElementMatcher<T> matcher){
+        while(it.hasNext()){
+            if(matcher.match(it.next())){
+                return it;
+
+            }
         }
+        return null;
     }
 }
