@@ -10,8 +10,7 @@ public class Finder<T> {
         while(it.hasNext()){
             if(matcher.match(it.next())){
                 return it;
-
-            }
+        }
         }
         return null;
     }

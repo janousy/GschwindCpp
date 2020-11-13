@@ -55,6 +55,7 @@ bool between(Iter first, Iter last, Iter it) {
 int main() {
     bool is_between;
 
+    //TODO: jumping outside the set results in random position
     set<int> s { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
     set<int>::iterator it1 = s.begin();
     for (int i = 0; i < 4; i++) {
@@ -67,7 +68,7 @@ int main() {
     /* random access iterator */
     vector<int> v{1, 2, 3, 4, 5, 6, 7, 8, 9};
     vector<int>::iterator it2 = v.begin();
-    for (int i = 0; i < 4; i++) {
+    for (int i = 0; i < 9; i++) {
         it2++;
     }
     cout << "it2 pos: " << *it2 << endl;

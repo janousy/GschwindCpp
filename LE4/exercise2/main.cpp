@@ -36,7 +36,7 @@ public:
         return ele == element;
     }
 
-    bool operator()(T ele) const {
+    bool operator()(T &ele) const {
         return ele == element;
     }
 };
@@ -50,7 +50,7 @@ T findIfByValue(T iter, T end, Matcher<F> matcher) {
     return iter;
 }
 
-template<typename T, typename F>
+template<typename T, typename F> inline
 T findIfByRef(T &iter, T &end, Matcher<F> &matcher) {
     while (iter != end) {
         if (matcher.matchRef(*iter)) break;
@@ -109,16 +109,8 @@ int main() {
     auto durationF = duration_cast<milliseconds>(stopF - startF);
 
     std::cout << "element found: " << (foundF != end) << std::endl;
-    std::cout << "milliseconds used for find_if with matcher: " << durationF.count() << std::endl;
+    std::cout << "milliseconds used for find_if with matcher - pass by reference: " << durationF.count() << std::endl;
 
-    //by Value
-    auto startV = high_resolution_clock::now();
-    auto found = findIfByValue(begin, end, matcher);
-    auto stopV = high_resolution_clock::now();
-    auto durationV = duration_cast<milliseconds>(stopV - startV);
-
-    std::cout << "element found:" << (found != end) << std::endl;
-    std::cout << "milliseconds used, matcher passed by value: " << durationV.count() << std::endl;
 
     //by reference
     begin = v1.begin();
@@ -130,9 +122,21 @@ int main() {
 
     std::cout << "element found: "<< (found2 != end) << std::endl;
     std::cout << "milliseconds used, matcher passed by reference: " << durationR.count() << std::endl;
+
+    /*//by Value
+   auto startV = high_resolution_clock::now();
+   auto found = findIfByValue(begin, end, matcher);
+   auto stopV = high_resolution_clock::now();
+   auto durationV = duration_cast<milliseconds>(stopV - startV);
+
+   std::cout << "element found:" << (found != end) << std::endl;
+   std::cout << "milliseconds used, matcher passed by value: " << durationV.count() << std::endl;*/
 }
 
 /*
- - matcher pass by value probably fastest
+ * 1. find_if with matcher
+ * 1. ~find_if lambda
+ * 3. own implementation (pass by reference)
+ - matcher pass by reference probably fastest for find_if
  - find_if and lambda otherwise best
  */

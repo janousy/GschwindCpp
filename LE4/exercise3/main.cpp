@@ -22,7 +22,6 @@ private:
 public:
     class iterator {
         friend class range_class;
-
     public:
         //dereference
         long int operator*() const { return pos; }
@@ -39,7 +38,7 @@ public:
         iterator(int start) : pos(start) {}
 
     private:
-        unsigned long pos;
+        int pos;
     };
 
     range_class(int start, int end) : start_val(start), end_val(end) {};

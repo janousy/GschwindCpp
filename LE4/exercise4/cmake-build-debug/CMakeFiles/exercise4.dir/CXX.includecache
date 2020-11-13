@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE4/exercise4/main.cpp
+vector
+-
+list
+-
+iostream
+-
+map
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE4/exercise4/map
+set
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE4/exercise4/set
+deque
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE4/exercise4/deque
+

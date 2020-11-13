@@ -41,7 +41,7 @@ public class Main {
         String randWord = randStrings.remove(0);
 
         // to show that it works
-        randStrings.add(randWord);
+        //randStrings.add(randWord);
 
         Iterator<String> it = randStrings.iterator();
         ElementMatcher<String> matcher = new ElementMatcher<String>(randWord);
@@ -55,6 +55,5 @@ public class Main {
         System.out.format("milliseconds elapsed: %d%n",timeElapsed/1000000);
 
         System.out.format("for String ArrayList of size: %d ", n);
-
     }
 }
