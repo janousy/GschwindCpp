@@ -9,7 +9,7 @@
 
 /*
  ? pre increment ++it is more efficient than i++? why?
- */
+*/
 
 #include <iostream>
 
@@ -62,4 +62,6 @@ int main() {
  must implement begin() and end() member functions
  should be equivalent to this:
     for (int it = obj.begin(); it =! object.end(); ++it)
+
+=> shows numbers 1:19! (usual implementation of range loop)
 */

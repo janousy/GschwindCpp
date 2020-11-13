@@ -47,7 +47,7 @@ namespace iter_between {
 }
 
 //iterator tag dispatcher function
-template<class Iter>
+template<typename Iter>
 bool between(Iter first, Iter last, Iter it) {
     return iter_between::between(first, last, it, typename std::iterator_traits<Iter>::iterator_category());
 }
@@ -56,23 +56,26 @@ int main() {
     bool is_between;
 
     //TODO: jumping outside the set results in random position
-    set<int> s { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+    set<int> s {0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
     set<int>::iterator it1 = s.begin();
     for (int i = 0; i < 4; i++) {
         it1++;
     }
-    cout << "it1 pos: " << *it1 << endl;
-    is_between = between(s.begin(), s.end(), it1);
+    cout << "*it1: " << *it1 << endl;
+    is_between = between(s.begin(), it1, s.end());
     cout << std::boolalpha << is_between << endl;
 
     /* random access iterator */
-    vector<int> v{1, 2, 3, 4, 5, 6, 7, 8, 9};
+    vector<int> v{0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
     vector<int>::iterator it2 = v.begin();
-    for (int i = 0; i < 9; i++) {
+    for (int i = 0; i < 5; i++) {
         it2++;
     }
-    cout << "it2 pos: " << *it2 << endl;
+    cout << "*it2: " << *it2 << endl;
     is_between = between(v.begin(), v.end(), it2);
+    cout << std::boolalpha << is_between << endl;
+
+    is_between = between(v.begin(), it2, v.end());
     cout << std::boolalpha << is_between << endl;
 
     return 0;
@@ -82,4 +85,7 @@ int main() {
     * vector: random access
     * set: bidirectional
     * forward_list: forward iterator
+    *
+    * Caveat!: calling increment might result in undefined behavior
+    *   because calling operator ++ for the end of a sequence is not defined
 */
