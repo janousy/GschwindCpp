@@ -1,12 +1,10 @@
-#include "human.h"
 #include "playfield.h"
 #include <iostream>
-#include "human.cpp"
-#include "computer.h"
-#include "computer.cpp"
-#include "intel.h"
-#include "intel.cpp"
-#include "com_dom.cpp"
+#include "agents/computer.h"
+#include "agents/computer.cpp"
+#include "agents/dominique.cpp"
+#include "agents/com_wrapper.h"
+#include "agents//com_wrapper.cpp"
 
 using namespace std;
 
@@ -91,14 +89,12 @@ int insert_stone(playfield &pf, int w, int playerNr) {
 int main() {
 
     playfield pf;
-
-
     //human<playfield> player1;
 
     //my computer player
-    intel<playfield> gI (pf.player1);
-    computer<playfield> player1(gI);
-    com_Dom<playfield> player2 = {2};
+    com_wrapper<playfield> p1(1);
+
+    com_Dom<playfield> p2 = {2};
 
     for (int h = 0; h < playfield::height; h++) {
         for (int w = 0; w < pf.width; w++) {
@@ -112,10 +108,10 @@ int main() {
         int h = -1;
         while (h < 0){
             if (turn == 0){
-                w = player1.play(pf);
+                w = p1.play(pf);
             }
             else{
-                w = player2.play(pf);
+                w = p2.play(pf);
 
             }
             h = insert_stone(pf, w, turn+1);
@@ -131,6 +127,5 @@ int main() {
         }
         turn = (turn +1) % 2;
     }
-
     return 0;
 }

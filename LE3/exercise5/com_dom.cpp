@@ -6,7 +6,7 @@ using namespace std;
 
 #include "iostream"
 template<typename F>
-struct com_Dominique {
+struct com_Dom {
     char player_id;
 
     // returns the column where the player decides to insert his

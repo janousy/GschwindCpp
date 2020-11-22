@@ -29,7 +29,7 @@ namespace container_merge {
             ++it2_b;
         }
     }
-}
+} //namespace
 
 template<class c1, class c2>
 void merge(c1 &cont1, c2 &cont2) {
@@ -127,6 +127,20 @@ int main(int argc, char *argv[]) {
     vector<string> vS = {"Jan", "Mia"};
     merge(v1, vS);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * could also have used dispatcher function with iterators

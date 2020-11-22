@@ -80,7 +80,7 @@ int main() {
 
     cout << "...";
     vector<string> v1;
-    randString(v1, 10000000);
+    randString(v1, 1000000);
     string word = "ABCDEFG";
     cout << "generated strings" << endl;
 

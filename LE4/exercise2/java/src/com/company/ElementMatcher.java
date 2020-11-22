@@ -1,6 +1,8 @@
 package com.company;
 
-public class ElementMatcher<T> {
+import java.util.regex.Matcher;
+
+public class ElementMatcher<T>  {
     private T element;
 
     public ElementMatcher(T ele){

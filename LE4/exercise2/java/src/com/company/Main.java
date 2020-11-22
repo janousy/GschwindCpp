@@ -10,7 +10,7 @@ public class Main {
         //generate Random ArrayList
         String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         Random random = new Random();
-        int length = 7;
+        int length = 1;
 
         StringBuilder sb = new StringBuilder();
         ArrayList<String> randStrings = new ArrayList<String>();
@@ -41,13 +41,13 @@ public class Main {
         String randWord = randStrings.remove(0);
 
         // to show that it works
-        //randStrings.add(randWord);
+        randStrings.add(randWord);
 
         Iterator<String> it = randStrings.iterator();
         ElementMatcher<String> matcher = new ElementMatcher<String>(randWord);
 
         long start =System.nanoTime();
-        Iterator<String> found = Finder.findIf(it, matcher);
+        Iterator<String> found = Finder.findIfMatcher(it, matcher);
         long finish =System.nanoTime();
         long timeElapsed = finish - start;
         System.out.println("element matches:" );
