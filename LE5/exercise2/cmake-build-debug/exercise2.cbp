@@ -104,6 +104,12 @@
 		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/player.h">
 			<Option target="exercise2"/>
 		</Unit>
+		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/factory.cpp">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/factory.h">
+			<Option target="exercise2"/>
+		</Unit>
 		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/main.cpp">
 			<Option target="exercise2"/>
 		</Unit>

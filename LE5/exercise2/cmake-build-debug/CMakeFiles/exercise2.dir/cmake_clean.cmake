@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/exercise2.dir/agents/computer.cpp.o"
   "CMakeFiles/exercise2.dir/agents/dominique.cpp.o"
   "CMakeFiles/exercise2.dir/agents/human.cpp.o"
+  "CMakeFiles/exercise2.dir/factory.cpp.o"
   "CMakeFiles/exercise2.dir/main.cpp.o"
   "exercise2"
   "exercise2.pdb"

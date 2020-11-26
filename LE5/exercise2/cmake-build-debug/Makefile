@@ -251,6 +251,33 @@ agents/human.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/agents/human.cpp.s
 .PHONY : agents/human.cpp.s
 
+factory.o: factory.cpp.o
+
+.PHONY : factory.o
+
+# target to build an object file
+factory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/factory.cpp.o
+.PHONY : factory.cpp.o
+
+factory.i: factory.cpp.i
+
+.PHONY : factory.i
+
+# target to preprocess a source file
+factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/factory.cpp.i
+.PHONY : factory.cpp.i
+
+factory.s: factory.cpp.s
+
+.PHONY : factory.s
+
+# target to generate assembly for a file
+factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/factory.cpp.s
+.PHONY : factory.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -299,6 +326,9 @@ help:
 	@echo "... agents/human.o"
 	@echo "... agents/human.i"
 	@echo "... agents/human.s"
+	@echo "... factory.o"
+	@echo "... factory.i"
+	@echo "... factory.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

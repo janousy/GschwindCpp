@@ -5,6 +5,8 @@
 #include "agents/dominique.cpp"
 #include "agents/com_wrapper.h"
 #include "agents//com_wrapper.cpp"
+#include "factory.h"
+
 
 using namespace std;
 
@@ -87,14 +89,13 @@ int insert_stone(playfield &pf, int w, int playerNr) {
 }
 
 int main() {
-
     playfield pf;
+    factory<playfield> ft;
     //human<playfield> player1;
 
     //my computer player
-    com_wrapper<playfield> p1(1);
-
-    com_Dom<playfield> p2 = {2};
+    auto p1 = ft.getPlayer("computer1");
+    com_dom<playfield> p2 = {2};
 
     for (int h = 0; h < playfield::height; h++) {
         for (int w = 0; w < pf.width; w++) {
@@ -108,7 +109,7 @@ int main() {
         int h = -1;
         while (h < 0){
             if (turn == 0){
-                w = p1.play(pf);
+                w = p1->play(pf);
             }
             else{
                 w = p2.play(pf);
@@ -129,3 +130,22 @@ int main() {
     }
     return 0;
 }
+
+/*
+Implement the “Connect 4” game using inheritance § Reuse your template-based implementation for the
+    implementation of the inheritance-based version of “Connect 4”
+- Interfaces to be used, to be published
+- In your inheritance-based implementation of the classes, you can simply
+    delegate all functionality to the template-based implementation
+- If you use a generic template-based wrapper for the player interface, it
+    works with your colleague’s connect 4 players
+*/
+
+/*
+You obtained already computer players from  your colleagues
+Create those computer players with a factory
+- In the most simplistic way, implement like the one on this slide deck
+- However, you should be able to discuss the design
+- Would you have to change your code to add additional players?
+- How would you have to change your code?
+*/
