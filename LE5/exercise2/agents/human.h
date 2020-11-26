@@ -6,14 +6,19 @@
 #define EXERCISE4_HUMAN_H
 
 #include <iostream>
-#include "../playfield.h"
+#include "../myPlayfield.h"
 #include "player.h"
 using namespace std;
 
 template<typename F>
 class human : public player {
 public:
-    int play(const F &field);
+    int play(const F &field) {
+        int w;
+        cout << "turn: ";
+        cin >> w;
+        return w;
+    };
 };
 
 #endif //EXERCISE4_HUMAN_H

@@ -90,61 +90,22 @@ CMakeFiles/exercise2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercise2.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/main.cpp -o CMakeFiles/exercise2.dir/main.cpp.s
 
-CMakeFiles/exercise2.dir/agents/human.cpp.o: CMakeFiles/exercise2.dir/flags.make
-CMakeFiles/exercise2.dir/agents/human.cpp.o: ../agents/human.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exercise2.dir/agents/human.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exercise2.dir/agents/human.cpp.o -c /Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/human.cpp
+CMakeFiles/exercise2.dir/agents/computer1.cpp.o: CMakeFiles/exercise2.dir/flags.make
+CMakeFiles/exercise2.dir/agents/computer1.cpp.o: ../agents/computer1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exercise2.dir/agents/computer1.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exercise2.dir/agents/computer1.cpp.o -c /Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/computer1.cpp
 
-CMakeFiles/exercise2.dir/agents/human.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercise2.dir/agents/human.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/human.cpp > CMakeFiles/exercise2.dir/agents/human.cpp.i
+CMakeFiles/exercise2.dir/agents/computer1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercise2.dir/agents/computer1.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/computer1.cpp > CMakeFiles/exercise2.dir/agents/computer1.cpp.i
 
-CMakeFiles/exercise2.dir/agents/human.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercise2.dir/agents/human.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/human.cpp -o CMakeFiles/exercise2.dir/agents/human.cpp.s
-
-CMakeFiles/exercise2.dir/agents/computer.cpp.o: CMakeFiles/exercise2.dir/flags.make
-CMakeFiles/exercise2.dir/agents/computer.cpp.o: ../agents/computer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exercise2.dir/agents/computer.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exercise2.dir/agents/computer.cpp.o -c /Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/computer.cpp
-
-CMakeFiles/exercise2.dir/agents/computer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercise2.dir/agents/computer.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/computer.cpp > CMakeFiles/exercise2.dir/agents/computer.cpp.i
-
-CMakeFiles/exercise2.dir/agents/computer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercise2.dir/agents/computer.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/computer.cpp -o CMakeFiles/exercise2.dir/agents/computer.cpp.s
-
-CMakeFiles/exercise2.dir/agents/dominique.cpp.o: CMakeFiles/exercise2.dir/flags.make
-CMakeFiles/exercise2.dir/agents/dominique.cpp.o: ../agents/dominique.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exercise2.dir/agents/dominique.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exercise2.dir/agents/dominique.cpp.o -c /Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/dominique.cpp
-
-CMakeFiles/exercise2.dir/agents/dominique.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercise2.dir/agents/dominique.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/dominique.cpp > CMakeFiles/exercise2.dir/agents/dominique.cpp.i
-
-CMakeFiles/exercise2.dir/agents/dominique.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercise2.dir/agents/dominique.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/dominique.cpp -o CMakeFiles/exercise2.dir/agents/dominique.cpp.s
-
-CMakeFiles/exercise2.dir/agents/com_wrapper.cpp.o: CMakeFiles/exercise2.dir/flags.make
-CMakeFiles/exercise2.dir/agents/com_wrapper.cpp.o: ../agents/com_wrapper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exercise2.dir/agents/com_wrapper.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exercise2.dir/agents/com_wrapper.cpp.o -c /Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/com_wrapper.cpp
-
-CMakeFiles/exercise2.dir/agents/com_wrapper.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercise2.dir/agents/com_wrapper.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/com_wrapper.cpp > CMakeFiles/exercise2.dir/agents/com_wrapper.cpp.i
-
-CMakeFiles/exercise2.dir/agents/com_wrapper.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercise2.dir/agents/com_wrapper.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/com_wrapper.cpp -o CMakeFiles/exercise2.dir/agents/com_wrapper.cpp.s
+CMakeFiles/exercise2.dir/agents/computer1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercise2.dir/agents/computer1.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/computer1.cpp -o CMakeFiles/exercise2.dir/agents/computer1.cpp.s
 
 CMakeFiles/exercise2.dir/factory.cpp.o: CMakeFiles/exercise2.dir/flags.make
 CMakeFiles/exercise2.dir/factory.cpp.o: ../factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exercise2.dir/factory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exercise2.dir/factory.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exercise2.dir/factory.cpp.o -c /Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/factory.cpp
 
 CMakeFiles/exercise2.dir/factory.cpp.i: cmake_force
@@ -158,24 +119,18 @@ CMakeFiles/exercise2.dir/factory.cpp.s: cmake_force
 # Object files for target exercise2
 exercise2_OBJECTS = \
 "CMakeFiles/exercise2.dir/main.cpp.o" \
-"CMakeFiles/exercise2.dir/agents/human.cpp.o" \
-"CMakeFiles/exercise2.dir/agents/computer.cpp.o" \
-"CMakeFiles/exercise2.dir/agents/dominique.cpp.o" \
-"CMakeFiles/exercise2.dir/agents/com_wrapper.cpp.o" \
+"CMakeFiles/exercise2.dir/agents/computer1.cpp.o" \
 "CMakeFiles/exercise2.dir/factory.cpp.o"
 
 # External object files for target exercise2
 exercise2_EXTERNAL_OBJECTS =
 
 exercise2: CMakeFiles/exercise2.dir/main.cpp.o
-exercise2: CMakeFiles/exercise2.dir/agents/human.cpp.o
-exercise2: CMakeFiles/exercise2.dir/agents/computer.cpp.o
-exercise2: CMakeFiles/exercise2.dir/agents/dominique.cpp.o
-exercise2: CMakeFiles/exercise2.dir/agents/com_wrapper.cpp.o
+exercise2: CMakeFiles/exercise2.dir/agents/computer1.cpp.o
 exercise2: CMakeFiles/exercise2.dir/factory.cpp.o
 exercise2: CMakeFiles/exercise2.dir/build.make
 exercise2: CMakeFiles/exercise2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable exercise2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable exercise2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exercise2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -143,113 +143,32 @@ exercise2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/build
 .PHONY : exercise2/fast
 
-agents/com_wrapper.o: agents/com_wrapper.cpp.o
+agents/computer1.o: agents/computer1.cpp.o
 
-.PHONY : agents/com_wrapper.o
-
-# target to build an object file
-agents/com_wrapper.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/agents/com_wrapper.cpp.o
-.PHONY : agents/com_wrapper.cpp.o
-
-agents/com_wrapper.i: agents/com_wrapper.cpp.i
-
-.PHONY : agents/com_wrapper.i
-
-# target to preprocess a source file
-agents/com_wrapper.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/agents/com_wrapper.cpp.i
-.PHONY : agents/com_wrapper.cpp.i
-
-agents/com_wrapper.s: agents/com_wrapper.cpp.s
-
-.PHONY : agents/com_wrapper.s
-
-# target to generate assembly for a file
-agents/com_wrapper.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/agents/com_wrapper.cpp.s
-.PHONY : agents/com_wrapper.cpp.s
-
-agents/computer.o: agents/computer.cpp.o
-
-.PHONY : agents/computer.o
+.PHONY : agents/computer1.o
 
 # target to build an object file
-agents/computer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/agents/computer.cpp.o
-.PHONY : agents/computer.cpp.o
+agents/computer1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/agents/computer1.cpp.o
+.PHONY : agents/computer1.cpp.o
 
-agents/computer.i: agents/computer.cpp.i
+agents/computer1.i: agents/computer1.cpp.i
 
-.PHONY : agents/computer.i
-
-# target to preprocess a source file
-agents/computer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/agents/computer.cpp.i
-.PHONY : agents/computer.cpp.i
-
-agents/computer.s: agents/computer.cpp.s
-
-.PHONY : agents/computer.s
-
-# target to generate assembly for a file
-agents/computer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/agents/computer.cpp.s
-.PHONY : agents/computer.cpp.s
-
-agents/dominique.o: agents/dominique.cpp.o
-
-.PHONY : agents/dominique.o
-
-# target to build an object file
-agents/dominique.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/agents/dominique.cpp.o
-.PHONY : agents/dominique.cpp.o
-
-agents/dominique.i: agents/dominique.cpp.i
-
-.PHONY : agents/dominique.i
+.PHONY : agents/computer1.i
 
 # target to preprocess a source file
-agents/dominique.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/agents/dominique.cpp.i
-.PHONY : agents/dominique.cpp.i
+agents/computer1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/agents/computer1.cpp.i
+.PHONY : agents/computer1.cpp.i
 
-agents/dominique.s: agents/dominique.cpp.s
+agents/computer1.s: agents/computer1.cpp.s
 
-.PHONY : agents/dominique.s
-
-# target to generate assembly for a file
-agents/dominique.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/agents/dominique.cpp.s
-.PHONY : agents/dominique.cpp.s
-
-agents/human.o: agents/human.cpp.o
-
-.PHONY : agents/human.o
-
-# target to build an object file
-agents/human.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/agents/human.cpp.o
-.PHONY : agents/human.cpp.o
-
-agents/human.i: agents/human.cpp.i
-
-.PHONY : agents/human.i
-
-# target to preprocess a source file
-agents/human.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/agents/human.cpp.i
-.PHONY : agents/human.cpp.i
-
-agents/human.s: agents/human.cpp.s
-
-.PHONY : agents/human.s
+.PHONY : agents/computer1.s
 
 # target to generate assembly for a file
-agents/human.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/agents/human.cpp.s
-.PHONY : agents/human.cpp.s
+agents/computer1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/agents/computer1.cpp.s
+.PHONY : agents/computer1.cpp.s
 
 factory.o: factory.cpp.o
 
@@ -314,18 +233,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... exercise2"
-	@echo "... agents/com_wrapper.o"
-	@echo "... agents/com_wrapper.i"
-	@echo "... agents/com_wrapper.s"
-	@echo "... agents/computer.o"
-	@echo "... agents/computer.i"
-	@echo "... agents/computer.s"
-	@echo "... agents/dominique.o"
-	@echo "... agents/dominique.i"
-	@echo "... agents/dominique.s"
-	@echo "... agents/human.o"
-	@echo "... agents/human.i"
-	@echo "... agents/human.s"
+	@echo "... agents/computer1.o"
+	@echo "... agents/computer1.i"
+	@echo "... agents/computer1.s"
 	@echo "... factory.o"
 	@echo "... factory.i"
 	@echo "... factory.s"

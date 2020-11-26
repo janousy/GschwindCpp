@@ -4,10 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/com_wrapper.cpp" "/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/cmake-build-debug/CMakeFiles/exercise2.dir/agents/com_wrapper.cpp.o"
-  "/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/computer.cpp" "/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/cmake-build-debug/CMakeFiles/exercise2.dir/agents/computer.cpp.o"
-  "/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/dominique.cpp" "/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/cmake-build-debug/CMakeFiles/exercise2.dir/agents/dominique.cpp.o"
-  "/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/human.cpp" "/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/cmake-build-debug/CMakeFiles/exercise2.dir/agents/human.cpp.o"
+  "/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/computer1.cpp" "/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/cmake-build-debug/CMakeFiles/exercise2.dir/agents/computer1.cpp.o"
   "/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/factory.cpp" "/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/cmake-build-debug/CMakeFiles/exercise2.dir/factory.cpp.o"
   "/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/main.cpp" "/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/cmake-build-debug/CMakeFiles/exercise2.dir/main.cpp.o"
   )

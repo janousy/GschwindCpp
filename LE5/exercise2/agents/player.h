@@ -5,7 +5,9 @@
 #ifndef EXERCISE4_PLAYER_H
 #define EXERCISE4_PLAYER_H
 
+#include "../myPlayfield.h"
 #include "../playfield.h"
+
 
 class player {
 public:

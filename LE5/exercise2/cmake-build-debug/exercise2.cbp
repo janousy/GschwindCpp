@@ -80,22 +80,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/com_wrapper.cpp">
-			<Option target="exercise2"/>
-		</Unit>
 		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/com_wrapper.h">
 			<Option target="exercise2"/>
 		</Unit>
-		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/computer.cpp">
+		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/computer1.cpp">
 			<Option target="exercise2"/>
 		</Unit>
-		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/computer.h">
+		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/computer1.h">
 			<Option target="exercise2"/>
 		</Unit>
-		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/dominique.cpp">
+		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/computer2.h">
 			<Option target="exercise2"/>
 		</Unit>
-		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/human.cpp">
+		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/computer3.h">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/computer4.h">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/computer5.h">
 			<Option target="exercise2"/>
 		</Unit>
 		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/agents/human.h">
@@ -110,7 +113,13 @@
 		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/factory.h">
 			<Option target="exercise2"/>
 		</Unit>
+		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/helper.h">
+			<Option target="exercise2"/>
+		</Unit>
 		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/main.cpp">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/myPlayfield.h">
 			<Option target="exercise2"/>
 		</Unit>
 		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise2/playfield.h">
