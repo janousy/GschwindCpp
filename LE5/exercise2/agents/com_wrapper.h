@@ -17,7 +17,7 @@ struct wrap2com1 : public player {
 private:
     computer1<playfield> cp;
 public:
-    wrap2com1(computer1<playfield> c) : cp(c) {}
+    wrap2com1(computer1<playfield> c) : cp(c), player() {}
     int play(const playfield &field) override{
         return cp.play(field);
     }
