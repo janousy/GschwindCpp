@@ -10,25 +10,20 @@ using namespace std;
 
 /*
 Constructs a back-insert iterator that inserts new elements at the end of x.
+A back-insert iterator is a special type of output iterator designed to allow algorithms that usually overwrite
+ elements (such as copy) to instead insert new elements automatically at the end of the container.
+The type of x needs to have a push_back member function
+ (such as the standard containers vector, deque and list).
 
-A back-insert iterator is a special type of output iterator designed to allow algorithms that usually overwrite elements (such as copy) to instead insert new elements automatically at the end of the container.
+Using the assignment operator on the returned iterator
+ (either dereferenced or not), causes the container to expand by one element,
+ which is initialized to the value assigned.
 
-The type of x needs to have a push_back member function (such as the standard containers vector, deque and list).
-
-Using the assignment operator on the returned iterator (either dereferenced or not), causes the container to expand by one element, which is initialized to the value assigned.
-
-The returned iterator supports all other typical operations of output iterators but have no effect: all values assigned are inserted at the end of the container.
- */
-
+The returned iterator supports all other typical operations
+ of output iterators but have no effect: all values assigned are inserted at the end of the container.
+*/
 
 namespace container_merge {
-    //fall back for demonstration, just that program complies. Should be left away
-
-    /* template<class C1, class C2, typename itType, typename itType2>
-    void myMerge(C1 &cont1, C2 &cont2, itType it1, itType2 it2) {
-        cout << "my merge version can´t merge containers that don't contain the same type of objects" << endl;
-    }*/
-
 
     template<typename itType, class C1, class C2>
     void myMerge(C1 &cont1, C2 &cont2, itType type1, itType type2) {
@@ -56,13 +51,6 @@ void myMerge(c1 &cont1, c2 &cont2) {
                              typename std::iterator_traits<Iter2>::value_type());
 }
 
-/* added functionality in comparison to my old version:
- *
- * merge list that contain different types as there exists a type conversion between the items:
- *works for:
- * [int, char, float, double]
- *
- * */
 template<class c1, class c2>
 c1 newMerge(c1 &cont1, c2 &cont2) {
     auto it1_b = cont1.begin();
@@ -75,6 +63,13 @@ c1 newMerge(c1 &cont1, c2 &cont2) {
     return cont3;
 }
 
+/* added functionality in comparison to my old version:
+ - two sorted containers into one sorted container (by less than operator
+ - merge list that contain different types as there exists a type conversion between the items:
+    works for:
+    [int, char, float, double]
+ - cannot merge maps (push_back required)
+*/
 
 int main(int argc, char *argv[]) {
 
@@ -89,7 +84,14 @@ int main(int argc, char *argv[]) {
     }
     cout << endl;
 
-    //myMerge(l, dq);
+    list<int> l2 = {1, 3};
+    vector<float> v3 = {4.01, 5.61};
+    cout << "merging a list<int> with a vector<float>" << endl;
+    c = newMerge(l2, v3);
+    for (auto i : c) {
+        cout << i << " ";
+    }
+    cout << endl;
 
     //maps of different types doesnt work, for new and old implementation
     map<int, int> map1;
@@ -103,7 +105,15 @@ int main(int argc, char *argv[]) {
     map2.insert(pair<int, int>(7, 90));
     map2.insert(pair<int, int>(8, 50));
 
-    auto c2 = newMerge(map1, map2);
+    cout << "merging a map<int> with a map<int>" << endl;
+    //myMerge(map1, map2);
+    //map1 = newMerge(map1,map2);
+    for(auto it = map1.cbegin(); it != map1.cend(); ++it)
+    {
+        std::cout << it->first << " " << it->second << " ";
+    }
+    cout << endl;
+
     //map and list doesnt work
     // no known conversion for argument 1 from 'int' to 'const value_type&' {aka 'const std::pair<const int, int>&'}
     //auto c3 = newMerge(map1,l);

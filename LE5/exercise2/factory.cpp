@@ -46,4 +46,6 @@ player *factory::getPlayer(const string &type) {
 /*
  * could use a map config file with types and associated wrapper objects
  * however, wrapper would still need to be extended
+ * => probably xml files with type objects and corresponding objects
+ * => would require a better solution for wrapper (provide wrapper with computer?)
  */
