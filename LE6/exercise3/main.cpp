@@ -11,7 +11,8 @@ struct aspolar {
     static const int DEG = 0x1;
     static const int RAD = 0x2;
     static const int GRAD = 0x4;
-    int flag;
+    //default RAD for flag (seems to be standard with complex numbers)
+    int flag = RAD;
     complex<double> cp;
 
     aspolar(complex<double> c, int f) : cp(c), flag(f) {};
@@ -39,6 +40,7 @@ inline std::ostream &operator<<(std::ostream &os, aspolar a) {
 int main() {
     complex<double> c(3.00,5.00);
     cout << aspolar(c, aspolar::GRAD) << endl;
+    cout << aspolar(c) << endl;
     return 0;
 }
 

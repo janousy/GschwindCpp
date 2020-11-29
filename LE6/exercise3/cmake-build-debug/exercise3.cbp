@@ -80,9 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise3/aspolar.h">
-			<Option target="exercise3"/>
-		</Unit>
 		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise3/main.cpp">
 			<Option target="exercise3"/>
 		</Unit>
