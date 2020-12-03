@@ -6,8 +6,13 @@
 using namespace std;
 
 int main() {
-    pvector<complex<float>> pv1("/Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise2/pv-complex.txt");
-    pv1.push_back((2.3,5.6));
+    try {
+        pvector<complex<float>> pv1("/Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise2/pv-complex.txt");
+        pv1.push_back((2.3, 5.6));
+    } catch (exception e) {
+        cout << "unable to init pvector";
+    }
+
     return 0;
 }
 

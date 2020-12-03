@@ -12,12 +12,20 @@ using namespace std;
 
 struct FileLocker {
     string res;
-    FileLocker(string file) : res(file) {
-        cout << "file locked" << endl;
+    void lock(string filename) {
+        try {
+            throw -1;
+            cout << "lock file" << endl;
+        } catch (exception e) {
+            throw -1;
+        }
     }
 
+    void unlock() {
+        cout << "unlock file" << endl;
+    }
     ~FileLocker() {
-        cout << "file unlocked" << endl;
+        unlock();
     }
 };
 
