@@ -11,22 +11,24 @@
 using namespace std;
 
 struct FileLocker {
-    string res;
-    void lock(string filename) {
-        try {
-            throw -1;
-            cout << "lock file" << endl;
-        } catch (exception e) {
-            throw -1;
-        }
+    FileLocker(string filename){
+        lock(filename);
+    }
+
+     ~FileLocker() {
+        unlock();
+    }
+
+    void lock(string &filename) {
+        //code that tries to acquire look
+        //throw -1;
+        cout << "lock file" << endl;
     }
 
     void unlock() {
         cout << "unlock file" << endl;
     }
-    ~FileLocker() {
-        unlock();
-    }
+   
 };
 
 /*

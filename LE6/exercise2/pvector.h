@@ -24,13 +24,8 @@ protected:
 
 public:
     //lock file upon creating pvector, since operating on elements
-    pvector(string fname) : filename(fname), fl() {
-        try {
-            fl.lock(fname);
-        } catch(exception e) {
-            throw -1;
-            cout << "unable to init pvector";
-        }
+    //lock file upon creating pvector, since operating on elements
+    pvector(string fname) : filename(fname), fl(fname) {
         cout << "reading vector" << endl;
         read_vector();
     }

@@ -12,12 +12,11 @@ struct aspolar {
     static const int RAD = 0x2;
     static const int GRAD = 0x4;
     //default RAD for flag (seems to be standard with complex numbers)
-    int flag = RAD;
+    int flag;
     complex<double> cp;
 
-    aspolar(complex<double> c, int f) : cp(c), flag(f) {};
-    //constructor overload to make flag optional
-    aspolar(complex<double> c) : cp(c) {};
+    //default RAD
+    aspolar(complex<double> c, int f=aspolar::RAD) : cp(c), flag(f) {};
 };
 
 //overload output operator for aspolar struct
@@ -25,7 +24,7 @@ inline std::ostream &operator<<(std::ostream &os, aspolar a) {
     os << "Mag: " << abs(a.cp) << ",";
     os << " Phase: ";
     if(a.flag == aspolar::DEG) { //degree
-        os << arg(a.cp)*180/M_PI << " GRAD";
+        os << arg(a.cp)*180/M_PI << " DEG";
     }
     else if(a.flag == aspolar::RAD) { //radian
         os << arg(a.cp) << " RAD";
@@ -39,7 +38,9 @@ inline std::ostream &operator<<(std::ostream &os, aspolar a) {
 // Using our output manipulator
 int main() {
     complex<double> c(3.00,5.00);
+    cout << c << endl;
     cout << aspolar(c, aspolar::GRAD) << endl;
+    cout << aspolar(c, aspolar::DEG) << endl;
     cout << aspolar(c) << endl;
     return 0;
 }
