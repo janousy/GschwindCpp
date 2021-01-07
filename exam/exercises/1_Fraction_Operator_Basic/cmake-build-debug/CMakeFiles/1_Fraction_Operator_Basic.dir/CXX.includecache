@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/1_Fraction_Operator_Basic/main.cpp
+iostream
+-
+numeric
+-
+

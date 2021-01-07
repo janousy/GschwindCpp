@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/2_pVector_PersistentTraits
+CMAKE_SOURCE_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/2_pVector_PersistentTraits/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/2_pVector_PersistentTraits/cmake-build-debug/CMakeFiles /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/2_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/2_pVector_PersistentTraits/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named exercise2
+# Target rules for targets named pVector_Persistent
 
 # Build rule for target.
-exercise2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercise2
-.PHONY : exercise2
+pVector_Persistent: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pVector_Persistent
+.PHONY : pVector_Persistent
 
 # fast build rule for target.
-exercise2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/build
-.PHONY : exercise2/fast
+pVector_Persistent/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pVector_Persistent.dir/build.make CMakeFiles/pVector_Persistent.dir/build
+.PHONY : pVector_Persistent/fast
 
 main.o: main.cpp.o
 
@@ -149,7 +149,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pVector_Persistent.dir/build.make CMakeFiles/pVector_Persistent.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -158,7 +158,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pVector_Persistent.dir/build.make CMakeFiles/pVector_Persistent.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -167,7 +167,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pVector_Persistent.dir/build.make CMakeFiles/pVector_Persistent.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 persistence_traits.o: persistence_traits.cpp.o
@@ -176,7 +176,7 @@ persistence_traits.o: persistence_traits.cpp.o
 
 # target to build an object file
 persistence_traits.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/persistence_traits.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pVector_Persistent.dir/build.make CMakeFiles/pVector_Persistent.dir/persistence_traits.cpp.o
 .PHONY : persistence_traits.cpp.o
 
 persistence_traits.i: persistence_traits.cpp.i
@@ -185,7 +185,7 @@ persistence_traits.i: persistence_traits.cpp.i
 
 # target to preprocess a source file
 persistence_traits.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/persistence_traits.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pVector_Persistent.dir/build.make CMakeFiles/pVector_Persistent.dir/persistence_traits.cpp.i
 .PHONY : persistence_traits.cpp.i
 
 persistence_traits.s: persistence_traits.cpp.s
@@ -194,7 +194,7 @@ persistence_traits.s: persistence_traits.cpp.s
 
 # target to generate assembly for a file
 persistence_traits.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/persistence_traits.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pVector_Persistent.dir/build.make CMakeFiles/pVector_Persistent.dir/persistence_traits.cpp.s
 .PHONY : persistence_traits.cpp.s
 
 pset.o: pset.cpp.o
@@ -203,7 +203,7 @@ pset.o: pset.cpp.o
 
 # target to build an object file
 pset.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/pset.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pVector_Persistent.dir/build.make CMakeFiles/pVector_Persistent.dir/pset.cpp.o
 .PHONY : pset.cpp.o
 
 pset.i: pset.cpp.i
@@ -212,7 +212,7 @@ pset.i: pset.cpp.i
 
 # target to preprocess a source file
 pset.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/pset.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pVector_Persistent.dir/build.make CMakeFiles/pVector_Persistent.dir/pset.cpp.i
 .PHONY : pset.cpp.i
 
 pset.s: pset.cpp.s
@@ -221,7 +221,7 @@ pset.s: pset.cpp.s
 
 # target to generate assembly for a file
 pset.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/pset.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pVector_Persistent.dir/build.make CMakeFiles/pVector_Persistent.dir/pset.cpp.s
 .PHONY : pset.cpp.s
 
 pvector.o: pvector.cpp.o
@@ -230,7 +230,7 @@ pvector.o: pvector.cpp.o
 
 # target to build an object file
 pvector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/pvector.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pVector_Persistent.dir/build.make CMakeFiles/pVector_Persistent.dir/pvector.cpp.o
 .PHONY : pvector.cpp.o
 
 pvector.i: pvector.cpp.i
@@ -239,7 +239,7 @@ pvector.i: pvector.cpp.i
 
 # target to preprocess a source file
 pvector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/pvector.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pVector_Persistent.dir/build.make CMakeFiles/pVector_Persistent.dir/pvector.cpp.i
 .PHONY : pvector.cpp.i
 
 pvector.s: pvector.cpp.s
@@ -248,7 +248,7 @@ pvector.s: pvector.cpp.s
 
 # target to generate assembly for a file
 pvector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/pvector.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pVector_Persistent.dir/build.make CMakeFiles/pVector_Persistent.dir/pvector.cpp.s
 .PHONY : pvector.cpp.s
 
 # Help Target
@@ -259,7 +259,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... exercise2"
+	@echo "... pVector_Persistent"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/2_pVector_PersistentTraits/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
