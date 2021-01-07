@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.17)
-project(exercise1)
+project(Pointer_RefCount)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(exercise1 main.cpp)
+add_executable(Pointer_RefCount main.cpp)

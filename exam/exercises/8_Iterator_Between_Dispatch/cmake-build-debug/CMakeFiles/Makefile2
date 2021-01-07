@@ -64,16 +64,16 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/LE4/exercise5
+CMAKE_SOURCE_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/8_Iterator_Between_Dispatch
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/LE4/exercise5/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/8_Iterator_Between_Dispatch/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/exercise5.dir/all
+all: CMakeFiles/Iterator_Between_Dispatch.dir/all
 
 .PHONY : all
 
@@ -83,36 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/exercise5.dir/clean
+clean: CMakeFiles/Iterator_Between_Dispatch.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/exercise5.dir
+# Target rules for target CMakeFiles/Iterator_Between_Dispatch.dir
 
 # All Build rule for target.
-CMakeFiles/exercise5.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise5.dir/build.make CMakeFiles/exercise5.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise5.dir/build.make CMakeFiles/exercise5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/LE4/exercise5/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target exercise5"
-.PHONY : CMakeFiles/exercise5.dir/all
+CMakeFiles/Iterator_Between_Dispatch.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Iterator_Between_Dispatch.dir/build.make CMakeFiles/Iterator_Between_Dispatch.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Iterator_Between_Dispatch.dir/build.make CMakeFiles/Iterator_Between_Dispatch.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Iterator_Between_Dispatch"
+.PHONY : CMakeFiles/Iterator_Between_Dispatch.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/exercise5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/LE4/exercise5/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/exercise5.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/LE4/exercise5/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/exercise5.dir/rule
+CMakeFiles/Iterator_Between_Dispatch.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Iterator_Between_Dispatch.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Iterator_Between_Dispatch.dir/rule
 
 # Convenience name for target.
-exercise5: CMakeFiles/exercise5.dir/rule
+Iterator_Between_Dispatch: CMakeFiles/Iterator_Between_Dispatch.dir/rule
 
-.PHONY : exercise5
+.PHONY : Iterator_Between_Dispatch
 
 # clean rule for target.
-CMakeFiles/exercise5.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise5.dir/build.make CMakeFiles/exercise5.dir/clean
-.PHONY : CMakeFiles/exercise5.dir/clean
+CMakeFiles/Iterator_Between_Dispatch.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Iterator_Between_Dispatch.dir/build.make CMakeFiles/Iterator_Between_Dispatch.dir/clean
+.PHONY : CMakeFiles/Iterator_Between_Dispatch.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

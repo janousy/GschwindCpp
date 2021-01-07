@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/LE1/exercise2
+CMAKE_SOURCE_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/1_Fraction_Operator_Basic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/LE1/exercise2/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/1_Fraction_Operator_Basic/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/LE1/exercise2/cmake-build-debug/CMakeFiles /Users/janoschbaltensperger/repos/GeschwindCpp/LE1/exercise2/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/1_Fraction_Operator_Basic/cmake-build-debug/CMakeFiles /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/1_Fraction_Operator_Basic/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/LE1/exercise2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/1_Fraction_Operator_Basic/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named exercise2
+# Target rules for targets named Fraction_Operator_Basic
 
 # Build rule for target.
-exercise2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercise2
-.PHONY : exercise2
+Fraction_Operator_Basic: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Fraction_Operator_Basic
+.PHONY : Fraction_Operator_Basic
 
 # fast build rule for target.
-exercise2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/build
-.PHONY : exercise2/fast
+Fraction_Operator_Basic/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fraction_Operator_Basic.dir/build.make CMakeFiles/Fraction_Operator_Basic.dir/build
+.PHONY : Fraction_Operator_Basic/fast
 
 main.o: main.cpp.o
 
@@ -149,7 +149,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fraction_Operator_Basic.dir/build.make CMakeFiles/Fraction_Operator_Basic.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -158,7 +158,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fraction_Operator_Basic.dir/build.make CMakeFiles/Fraction_Operator_Basic.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -167,7 +167,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fraction_Operator_Basic.dir/build.make CMakeFiles/Fraction_Operator_Basic.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -178,7 +178,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... exercise2"
+	@echo "... Fraction_Operator_Basic"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

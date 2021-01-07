@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/8_Iterator_Between_Dispatch/main.cpp
+iostream
+-
+vector
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/8_Iterator_Between_Dispatch/vector
+set
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/8_Iterator_Between_Dispatch/set
+

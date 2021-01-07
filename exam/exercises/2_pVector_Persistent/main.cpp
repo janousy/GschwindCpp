@@ -15,7 +15,6 @@ using namespace std;
 
         How can it be changed?
         -->
-
 */
 
 template<typename T>

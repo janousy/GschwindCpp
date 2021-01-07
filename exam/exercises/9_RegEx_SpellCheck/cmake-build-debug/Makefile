@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise1
+CMAKE_SOURCE_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/9_RegEx_SpellCheck
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/9_RegEx_SpellCheck/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise1/cmake-build-debug/CMakeFiles /Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/9_RegEx_SpellCheck/cmake-build-debug/CMakeFiles /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/9_RegEx_SpellCheck/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/9_RegEx_SpellCheck/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ex1
+# Target rules for targets named RegEx_SpellCheck
 
 # Build rule for target.
-ex1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex1
-.PHONY : ex1
+RegEx_SpellCheck: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RegEx_SpellCheck
+.PHONY : RegEx_SpellCheck
 
 # fast build rule for target.
-ex1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1.dir/build.make CMakeFiles/ex1.dir/build
-.PHONY : ex1/fast
+RegEx_SpellCheck/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RegEx_SpellCheck.dir/build.make CMakeFiles/RegEx_SpellCheck.dir/build
+.PHONY : RegEx_SpellCheck/fast
 
 main.o: main.cpp.o
 
@@ -149,7 +149,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1.dir/build.make CMakeFiles/ex1.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RegEx_SpellCheck.dir/build.make CMakeFiles/RegEx_SpellCheck.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -158,7 +158,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1.dir/build.make CMakeFiles/ex1.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RegEx_SpellCheck.dir/build.make CMakeFiles/RegEx_SpellCheck.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -167,7 +167,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1.dir/build.make CMakeFiles/ex1.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RegEx_SpellCheck.dir/build.make CMakeFiles/RegEx_SpellCheck.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -178,7 +178,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ex1"
+	@echo "... RegEx_SpellCheck"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

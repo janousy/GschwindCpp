@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/janoschbaltensperger/repos/GeschwindCpp/LE1/exercise2/main.cpp
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/1_Fraction_Operator_Basic/main.cpp
 iostream
 -
 numeric
