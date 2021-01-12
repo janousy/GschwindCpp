@@ -1,3 +1,0 @@
-/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/janoschbaltensperger/repos/GeschwindCpp/LE3/exercise1/cmake-build-debug/CMakeFiles/exercise1.dir
