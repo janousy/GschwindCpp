@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise2/FileLocker.h
+iostream
+-
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise2/main.cpp
+iostream
+-
+complex.h
+-
+pvector.h
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise2/pvector.h
+pvector.cpp
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise2/pvector.cpp
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise2/pvector.cpp
+pvector.h
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise2/pvector.h
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise2/pvector.h
+iostream
+-
+fstream
+-
+vector
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise2/vector
+FileLocker.h
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise2/FileLocker.h
+

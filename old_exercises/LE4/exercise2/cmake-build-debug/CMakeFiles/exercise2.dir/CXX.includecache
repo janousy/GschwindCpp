@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE4/exercise2/main.cpp
+iostream
+-
+vector
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE4/exercise2/vector
+random
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE4/exercise2/random
+chrono
+-
+algorithm
+-
+

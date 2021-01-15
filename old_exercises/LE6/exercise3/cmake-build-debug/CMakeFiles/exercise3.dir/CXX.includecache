@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise3/main.cpp
+iostream
+-
+complex
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise3/complex
+math.h
+-
+

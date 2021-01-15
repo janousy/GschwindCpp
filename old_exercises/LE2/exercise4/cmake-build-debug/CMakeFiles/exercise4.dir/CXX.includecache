@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise4/human.cpp
+human.h
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise4/human.h
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise4/human.h
+iostream
+-
+playfield.h
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise4/playfield.h
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise4/main.cpp
+iostream
+-
+vector
+-
+playfield.h
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise4/playfield.h
+human.h
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise4/human.h
+human.cpp
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise4/human.cpp
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE2/exercise4/playfield.h
+

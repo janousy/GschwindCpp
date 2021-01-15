@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise5/main.cpp
+algorithm
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise5/algorithm
+deque
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise5/deque
+map
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise5/map
+set
+/Users/janoschbaltensperger/repos/GeschwindCpp/LE5/exercise5/set
+iostream
+-
+list
+-
+vector
+-
+
