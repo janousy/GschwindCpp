@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/9_RegEx_SpellCheck/main.cpp
+iostream
+-
+fstream
+-
+istream
+-
+set
+-
+stdio.h
+-
+regex
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/9_RegEx_SpellCheck/regex
+algorithm
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/9_RegEx_SpellCheck/algorithm
+

@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/14_MetaProg_ConstExpr/main.cpp
+iostream
+-
+

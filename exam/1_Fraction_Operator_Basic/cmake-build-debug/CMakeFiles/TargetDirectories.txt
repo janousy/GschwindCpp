@@ -1,0 +1,3 @@
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/1_Fraction_Operator_Basic/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/1_Fraction_Operator_Basic/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/1_Fraction_Operator_Basic/cmake-build-debug/CMakeFiles/Fraction_Operator_Basic.dir

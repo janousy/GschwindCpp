@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/2_pVector_Persistent/main.cpp
+iostream
+-
+fstream
+-
+vector
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/2_pVector_Persistent/vector
+

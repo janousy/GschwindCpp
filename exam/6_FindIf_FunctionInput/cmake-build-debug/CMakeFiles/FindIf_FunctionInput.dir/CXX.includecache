@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/6_FindIf_FunctionInput/main.cpp
+iostream
+-
+vector
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/6_FindIf_FunctionInput/vector
+random
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/6_FindIf_FunctionInput/random
+chrono
+-
+algorithm
+-
+

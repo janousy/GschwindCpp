@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/5_Pointer_RefCount/main.cpp
+iostream
+-
+vector
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/5_Pointer_RefCount/vector
+
