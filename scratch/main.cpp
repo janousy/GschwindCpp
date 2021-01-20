@@ -1,24 +1,14 @@
-//the above example very much shortened!
-#include "iostream"
-using namespace std;
-template<int P, int N> struct isprime2 {
-    static const int res=isprime2<P,P%N?N-1:0>::res;
-    //shorthand if: expression? trueCase: falseCase
-    //above:  true if P%N >= 1, false if 0
-};
+#include <regex>
+#include <iostream>
+#include "vector"
 
-//base case for prime
-template<int P> struct isprime2<P, 1> {
-    static const int res=1;
-};
-//base case for not prime
-template<int P> struct isprime2<P, 0> {
-    static const int res=0;
-};
-template<int P> struct isprime {
-    static const int res=isprime2<P, P/2>::res;
-};
+using namespace std;
+
+
 
 int main() {
-cout << isprime<3>::res << endl;
+    vector<int> v1;
+    v1.push_back(1);
+    vector<int> * const vp = &v1;
+    vp->push_back(2);
 }
