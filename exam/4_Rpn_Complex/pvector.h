@@ -13,32 +13,66 @@ using namespace std;
 
 template<typename T>
 class pvector {
-protected:
     string filename;
     vector<T> v;
 
 public:
     pvector(string fname) : filename(fname) {
-        read_vector();
+        readvector();
     }
 
-    ~pvector() {
-        write_vector();
+    ~pvector() { writevector(); }
+
+    void readvector() {
+        ifstream ifs(filename);
+
+        if (!ifs.is_open()) {
+            cout << "invalid file" << endl;
+            return;
+        }
+
+        for (;;) {
+            T x;
+            ifs >> x;
+            if (!ifs.good()) {
+                break;
+            } else {
+                v.push_back(x);
+            }
+        }
+        print_vector();
     }
 
-    void push_back(const T &el);
+    void writevector() {
+        ofstream ofs(filename);
+        for (const T &elem : v) {
+            ofs << elem << endl;
+        }
+    }
 
-    void pop_back();
+    void print_vector() {
+        for (int i = 0; i < v.size(); i++) {
+            std::cout << v.at(i) << ' ';
+        }
+        cout << endl;
+    }
 
-    void read_vector();
+    void push_back(const T &el) {
+        v.push_back(el);
+        print_vector();
+    }
 
-    int size();
+    void pop_back() {
+        v.pop_back();
+    }
 
-    T at(int pos);
+    int size(){
+        return v.size();
+    }
 
-    void write_vector();
-
-    void print_vector();
+    T at(int pos){
+        return v.at(pos);
+    }
 };
 
 

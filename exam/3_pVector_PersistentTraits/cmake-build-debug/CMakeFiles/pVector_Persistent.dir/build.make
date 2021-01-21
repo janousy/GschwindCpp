@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits
+CMAKE_SOURCE_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pVector_Persistent.dir/depend.make
@@ -79,55 +79,55 @@ include CMakeFiles/pVector_Persistent.dir/flags.make
 
 CMakeFiles/pVector_Persistent.dir/main.cpp.o: CMakeFiles/pVector_Persistent.dir/flags.make
 CMakeFiles/pVector_Persistent.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pVector_Persistent.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pVector_Persistent.dir/main.cpp.o -c /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pVector_Persistent.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pVector_Persistent.dir/main.cpp.o -c /Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/main.cpp
 
 CMakeFiles/pVector_Persistent.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pVector_Persistent.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/main.cpp > CMakeFiles/pVector_Persistent.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/main.cpp > CMakeFiles/pVector_Persistent.dir/main.cpp.i
 
 CMakeFiles/pVector_Persistent.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pVector_Persistent.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/main.cpp -o CMakeFiles/pVector_Persistent.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/main.cpp -o CMakeFiles/pVector_Persistent.dir/main.cpp.s
 
 CMakeFiles/pVector_Persistent.dir/pvector.cpp.o: CMakeFiles/pVector_Persistent.dir/flags.make
 CMakeFiles/pVector_Persistent.dir/pvector.cpp.o: ../pvector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pVector_Persistent.dir/pvector.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pVector_Persistent.dir/pvector.cpp.o -c /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/pvector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pVector_Persistent.dir/pvector.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pVector_Persistent.dir/pvector.cpp.o -c /Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/pvector.cpp
 
 CMakeFiles/pVector_Persistent.dir/pvector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pVector_Persistent.dir/pvector.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/pvector.cpp > CMakeFiles/pVector_Persistent.dir/pvector.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/pvector.cpp > CMakeFiles/pVector_Persistent.dir/pvector.cpp.i
 
 CMakeFiles/pVector_Persistent.dir/pvector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pVector_Persistent.dir/pvector.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/pvector.cpp -o CMakeFiles/pVector_Persistent.dir/pvector.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/pvector.cpp -o CMakeFiles/pVector_Persistent.dir/pvector.cpp.s
 
 CMakeFiles/pVector_Persistent.dir/persistence_traits.cpp.o: CMakeFiles/pVector_Persistent.dir/flags.make
 CMakeFiles/pVector_Persistent.dir/persistence_traits.cpp.o: ../persistence_traits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pVector_Persistent.dir/persistence_traits.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pVector_Persistent.dir/persistence_traits.cpp.o -c /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/persistence_traits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pVector_Persistent.dir/persistence_traits.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pVector_Persistent.dir/persistence_traits.cpp.o -c /Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/persistence_traits.cpp
 
 CMakeFiles/pVector_Persistent.dir/persistence_traits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pVector_Persistent.dir/persistence_traits.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/persistence_traits.cpp > CMakeFiles/pVector_Persistent.dir/persistence_traits.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/persistence_traits.cpp > CMakeFiles/pVector_Persistent.dir/persistence_traits.cpp.i
 
 CMakeFiles/pVector_Persistent.dir/persistence_traits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pVector_Persistent.dir/persistence_traits.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/persistence_traits.cpp -o CMakeFiles/pVector_Persistent.dir/persistence_traits.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/persistence_traits.cpp -o CMakeFiles/pVector_Persistent.dir/persistence_traits.cpp.s
 
 CMakeFiles/pVector_Persistent.dir/pset.cpp.o: CMakeFiles/pVector_Persistent.dir/flags.make
 CMakeFiles/pVector_Persistent.dir/pset.cpp.o: ../pset.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pVector_Persistent.dir/pset.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pVector_Persistent.dir/pset.cpp.o -c /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/pset.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pVector_Persistent.dir/pset.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pVector_Persistent.dir/pset.cpp.o -c /Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/pset.cpp
 
 CMakeFiles/pVector_Persistent.dir/pset.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pVector_Persistent.dir/pset.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/pset.cpp > CMakeFiles/pVector_Persistent.dir/pset.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/pset.cpp > CMakeFiles/pVector_Persistent.dir/pset.cpp.i
 
 CMakeFiles/pVector_Persistent.dir/pset.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pVector_Persistent.dir/pset.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/pset.cpp -o CMakeFiles/pVector_Persistent.dir/pset.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/pset.cpp -o CMakeFiles/pVector_Persistent.dir/pset.cpp.s
 
 # Object files for target pVector_Persistent
 pVector_Persistent_OBJECTS = \
@@ -145,7 +145,7 @@ pVector_Persistent: CMakeFiles/pVector_Persistent.dir/persistence_traits.cpp.o
 pVector_Persistent: CMakeFiles/pVector_Persistent.dir/pset.cpp.o
 pVector_Persistent: CMakeFiles/pVector_Persistent.dir/build.make
 pVector_Persistent: CMakeFiles/pVector_Persistent.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable pVector_Persistent"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable pVector_Persistent"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pVector_Persistent.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -158,6 +158,6 @@ CMakeFiles/pVector_Persistent.dir/clean:
 .PHONY : CMakeFiles/pVector_Persistent.dir/clean
 
 CMakeFiles/pVector_Persistent.dir/depend:
-	cd /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/pVector_Persistent.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits /Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits /Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug /Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug /Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/pVector_Persistent.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pVector_Persistent.dir/depend
 

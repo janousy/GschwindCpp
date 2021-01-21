@@ -1,4 +1,4 @@
-# Install script for directory: /Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/5_Pointer_RefCount
+# Install script for directory: /Users/janoschbaltensperger/repos/GeschwindCpp/exam/5_Pointer_RefCount
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/5_Pointer_RefCount/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/janoschbaltensperger/repos/GeschwindCpp/exam/5_Pointer_RefCount/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,13 +1,12 @@
 #include <iostream>
 #include <complex.h>
 #include "pvector.h"
-#include "pvector.cpp"
 
 using namespace std;
 
 int main() {
     try {
-        pvector<complex<float>> pv2("/Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise2/pv-complex.txt");
+        pvector<complex<float>> pv2("/Users/janoschbaltensperger/repos/GeschwindCpp/exam/12_DBLOcker_Exceptions/pv-complex.txt");
     } catch (...) {
         // catch all exceptions
         cout << "unable to init pvector since we cant acquire lock";

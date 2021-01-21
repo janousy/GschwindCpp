@@ -1,7 +1,6 @@
 //
-// Created by Janosch Baltensperger on 23.10.20.
+// Created by Janosch Baltensperger on 20.01.21.
 //
-
 #ifndef EXERCISE3_PVECTOR_H
 #define EXERCISE3_PVECTOR_H
 
@@ -30,22 +29,51 @@ public:
         write_vector();
     }
 
-    void push_back(const T &el);
+    void write_vector() {
+        ofstream ofs(filename);
+        iterator fst = v.begin();
+        iterator lst = v.end();
+        while(fst!=lst) persister::write(ofs,*fst++);
+    }
 
-    void pop_back();
+    void read_vector() {
+        ifstream ifs(filename);
+        if (!ifs.is_open()) {
+            cout << "invalid file" << endl;
+            return;
+        }
 
-    void read_vector();
+        //read from ifs until end of file (eof)
+        while(true) {
+            T x;
+            persister::read(ifs,x);
+            if(ifs.eof()) {break;}
+            v.push_back(x);
+        }
+    }
 
-    int size();
+    void print_vector() {
+        for (int i = 0; i < v.size(); i++) {
+            std::cout << v.at(i) << ' ';
+        }
+        cout << endl;
+    }
 
-    T at(int pos);
 
-    void write_vector();
+    void push_back(const T &el) {
+        v.push_back(el);
+    }
 
-    void print_vector();
+    void pop_back(){
+        v.pop_back();
+    }
+
+    int size(){
+        return v.size();
+    }
+
+    T at(int pos){
+        return v.at(pos);
+    }
+
 };
-
-
-#endif //EXERCISE3_PVECTOR_H
-
-

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/8d_Iterator_Distance/main.cpp
+iostream
+-
+vector
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/8d_Iterator_Distance/vector
+set
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/8d_Iterator_Distance/set
+

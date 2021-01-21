@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/9_RegEx_Function/main.cpp
+iostream
+-
+regex
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/9_RegEx_Function/regex
+vector
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/9_RegEx_Function/vector
+

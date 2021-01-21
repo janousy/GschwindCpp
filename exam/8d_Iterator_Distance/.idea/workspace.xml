@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="8d_Iterator_Distance" targetName="8d_Iterator_Distance" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="efdcc7a0-4776-4e46-ae23-62a6c5d4ac53" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/8d_Iterator_Distance.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/8d_Iterator_Distance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/8d_Iterator_Distance.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/8d_Iterator_Distance.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/8d_Iterator_Distance.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/8d_Iterator_Distance.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/8d_Iterator_Distance.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/8d_Iterator_Distance.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/8d_Iterator_Distance.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/8d_Iterator_Distance.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/8d_Iterator_Distance.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/8d_Iterator_Distance.dir/main.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/8d_Iterator_Distance.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_StreamFormatSingle/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../15_StreamFormatSingle/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15_StreamFormatSingle/cmake-build-debug/15_StreamFormatSingle.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../15_StreamFormatSingle/cmake-build-debug/15_StreamFormatSingle.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/exercise2.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/exercise2.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/exercise2.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/exercise2.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/exercise2.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/exercise2.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/exercise2.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/exercise2.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/exercise2.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/exercise2.dir/persistence_traits.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/exercise2.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/exercise2.dir/pset.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/exercise2.dir/pvector.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/pVector_Persistent.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/pVector_Persistent.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/pVector_Persistent.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/pVector_Persistent.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/pVector_Persistent.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/pVector_Persistent.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/pVector_Persistent.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/pVector_Persistent.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/pVector_Persistent.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/pVector_Persistent.dir/persistence_traits.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/pVector_Persistent.dir/pset.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/CMakeFiles/pVector_Persistent.dir/pvector.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/pVector_Persistent.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../3_pVector_PersistentTraits/cmake-build-debug/pVector_Persistent.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../3_pVector_PersistentTraits/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/persistence_traits.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/persistence_traits.h" beforeDir="false" afterPath="$PROJECT_DIR$/../3_pVector_PersistentTraits/persistence_traits.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/pset.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/pset.h" beforeDir="false" afterPath="$PROJECT_DIR$/../3_pVector_PersistentTraits/pset.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/pvector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_pVector_PersistentTraits/pvector.h" beforeDir="false" afterPath="$PROJECT_DIR$/../3_pVector_PersistentTraits/pvector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/Rpn_Complex.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/Rpn_Complex.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/Rpn_Complex.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/Rpn_Complex.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/Rpn_Complex.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/Rpn_Complex.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/Rpn_Complex.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/Rpn_Complex.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/Rpn_Complex.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/Rpn_Complex.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/Rpn_Complex.dir/fraction.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/Rpn_Complex.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/Rpn_Complex.dir/pvector.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/Rpn_Complex.dir/rpn.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/Rpn_Complex" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/Rpn_Complex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/Rpn_Complex.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/Rpn_Complex.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/fraction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/fraction.h" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/fraction.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/pvector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/pvector.h" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/pvector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/rpn.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Rpn_Complex/rpn.h" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Rpn_Complex/rpn.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/Pointer_RefCount.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/Pointer_RefCount.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/Pointer_RefCount.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/Pointer_RefCount.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/Pointer_RefCount.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/Pointer_RefCount.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/Pointer_RefCount.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/Pointer_RefCount.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/Pointer_RefCount.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/Pointer_RefCount.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/Pointer_RefCount" beforeDir="false" afterPath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/Pointer_RefCount" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/Pointer_RefCount.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/Pointer_RefCount.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../5_Pointer_RefCount/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_Pointer_RefCount/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../5_Pointer_RefCount/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6_FindIf_FunctionInput/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../6_FindIf_FunctionInput/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../7_RangeClass/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../7_RangeClass/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/.idea/8_Iterator_Between_Concepts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/.idea/8_Iterator_Between_Concepts.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/8_Iterator_Between_Concepts.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/8_Iterator_Between_Concepts.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/8_Iterator_Between_Concepts.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/8_Iterator_Between_Concepts.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/8_Iterator_Between_Concepts.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/8_Iterator_Between_Concepts.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/8_Iterator_Between_Concepts.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/8_Iterator_Between_Concepts.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/8_Iterator_Between_Concepts.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/8_Iterator_Between_Concepts.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/8_Iterator_Between_Concepts.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/8_Iterator_Between_Concepts.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/8_Iterator_Between_Concepts.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/8_Iterator_Between_Concepts.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/8_Iterator_Between_Concepts.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Iterator_Between_Dispatch.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Concepts/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/.idea/exercise5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/.idea/exercise5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Iterator_Between_Dispatch.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Iterator_Between_Dispatch.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Iterator_Between_Dispatch.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Iterator_Between_Dispatch.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Iterator_Between_Dispatch.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Iterator_Between_Dispatch.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Iterator_Between_Dispatch.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Iterator_Between_Dispatch.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Iterator_Between_Dispatch.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Iterator_Between_Dispatch.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Iterator_Between_Dispatch.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Iterator_Between_Dispatch.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Iterator_Between_Dispatch.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Iterator_Between_Dispatch.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Iterator_Between_Dispatch.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Iterator_Between_Dispatch.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Iterator_Between_Dispatch.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Iterator_Between_Dispatch.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Iterator_Between_Dispatch.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/exercise2.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/Iterator_Between_Dispatch" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/Iterator_Between_Dispatch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/Iterator_Between_Dispatch.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/Iterator_Between_Dispatch.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/exercise5" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/exercise5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/cmake-build-debug/exercise5.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/cmake-build-debug/exercise5.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/main" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_Dispatch/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../8a_Iterator_Between_Dispatch/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/.idea/exercise2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/.idea/exercise2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/exercise2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/exercise2.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/exercise2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/exercise2.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/exercise2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/exercise2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/exercise2.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/exercise2.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/exercise2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/exercise2.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/exercise2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/exercise2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/exercise2.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/exercise2.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/exercise2.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/exercise2.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/exercise2.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/exercise2.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/exercise2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/8_Iterator_Between_Concepts.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../8c_Iterator_Between_Concepts/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/exercise2" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/exercise2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/cmake-build-debug/exercise2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/cmake-build-debug/exercise2.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/main" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_Iterator_Between_EnableIf/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../8b_Iterator_Between_EnableIf/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scratch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../scratch/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1nL2gmNUuAC4cpBTsDpNobGI6pb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="8d_Iterator_Distance" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="8d_Iterator_Distance" TARGET_NAME="8d_Iterator_Distance" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="8d_Iterator_Distance" RUN_TARGET_NAME="8d_Iterator_Distance">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efdcc7a0-4776-4e46-ae23-62a6c5d4ac53" name="Default Changelist" comment="" />
+      <created>1611155163559</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611155163559</updated>
+      <workItem from="1611155165068" duration="3810000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1140" height="332" key="GridCell.Tab.0.bottom" timestamp="1611159753504">
+      <screen x="0" y="25" width="1920" height="999" />
+    </state>
+    <state width="1140" height="332" key="GridCell.Tab.0.bottom/-1280.305.1280.775/0.25.1920.999@0.25.1920.999" timestamp="1611159753504" />
+    <state width="1140" height="332" key="GridCell.Tab.0.center" timestamp="1611159753503">
+      <screen x="0" y="25" width="1920" height="999" />
+    </state>
+    <state width="1140" height="332" key="GridCell.Tab.0.center/-1280.305.1280.775/0.25.1920.999@0.25.1920.999" timestamp="1611159753503" />
+    <state width="1140" height="332" key="GridCell.Tab.0.left" timestamp="1611159753502">
+      <screen x="0" y="25" width="1920" height="999" />
+    </state>
+    <state width="1140" height="332" key="GridCell.Tab.0.left/-1280.305.1280.775/0.25.1920.999@0.25.1920.999" timestamp="1611159753502" />
+    <state width="1140" height="332" key="GridCell.Tab.0.right" timestamp="1611159753503">
+      <screen x="0" y="25" width="1920" height="999" />
+    </state>
+    <state width="1140" height="332" key="GridCell.Tab.0.right/-1280.305.1280.775/0.25.1920.999@0.25.1920.999" timestamp="1611159753503" />
+    <state width="1140" height="332" key="GridCell.Tab.1.bottom" timestamp="1611159753506">
+      <screen x="0" y="25" width="1920" height="999" />
+    </state>
+    <state width="1140" height="332" key="GridCell.Tab.1.bottom/-1280.305.1280.775/0.25.1920.999@0.25.1920.999" timestamp="1611159753506" />
+    <state width="1140" height="332" key="GridCell.Tab.1.center" timestamp="1611159753505">
+      <screen x="0" y="25" width="1920" height="999" />
+    </state>
+    <state width="1140" height="332" key="GridCell.Tab.1.center/-1280.305.1280.775/0.25.1920.999@0.25.1920.999" timestamp="1611159753505" />
+    <state width="1140" height="332" key="GridCell.Tab.1.left" timestamp="1611159753504">
+      <screen x="0" y="25" width="1920" height="999" />
+    </state>
+    <state width="1140" height="332" key="GridCell.Tab.1.left/-1280.305.1280.775/0.25.1920.999@0.25.1920.999" timestamp="1611159753504" />
+    <state width="1140" height="332" key="GridCell.Tab.1.right" timestamp="1611159753505">
+      <screen x="0" y="25" width="1920" height="999" />
+    </state>
+    <state width="1140" height="332" key="GridCell.Tab.1.right/-1280.305.1280.775/0.25.1920.999@0.25.1920.999" timestamp="1611159753505" />
+  </component>
+</project>

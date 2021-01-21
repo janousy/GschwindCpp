@@ -16,7 +16,13 @@
 using namespace std;
 
 class iter {
+private:
+    int pos;
+
 public:
+    //dereference
+    iter(int start) : pos(start) {}
+
     //dereference
     long int operator*() const { return pos; }
 
@@ -26,12 +32,9 @@ public:
         return *this;
     }
 
+    //unequality
     bool operator!=(const iter &other) { return pos != other.pos; }
 
-    iter(int start) : pos(start) {}
-
-private:
-    int pos;
 };
 
 

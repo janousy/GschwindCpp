@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/5_Pointer_RefCount/main.cpp
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/5_Pointer_RefCount/main.cpp
 iostream
 -
 vector
-/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/5_Pointer_RefCount/vector
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/5_Pointer_RefCount/vector
 

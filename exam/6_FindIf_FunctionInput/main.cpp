@@ -60,6 +60,7 @@ T findIfByRef(T &begin, T &end, Matcher<F> &matcher) {
 }
 
 string target = "ab";
+
 template <typename T>
 bool unaryFind(T &ele) {
     return ele == target;
@@ -88,7 +89,6 @@ int main() {
     auto foundU = find_if(begin, end, unaryFind<string>);
 
 }
-
 /*
  * 1. find_if with matcher
  * 1. ~find_if lambda

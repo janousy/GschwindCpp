@@ -1,8 +1,5 @@
 #include "pvector.h"
-#include "pvector.cpp"
 #include "pset.h"
-#include "pset.cpp"
-
 using namespace std;
 
 int main() {

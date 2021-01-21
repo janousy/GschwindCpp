@@ -6,41 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/4_Rpn_Complex/main.cpp
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/4_Rpn_Complex/main.cpp
 complex
 -
 pvector.h
-/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/4_Rpn_Complex/pvector.h
-pvector.cpp
-/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/4_Rpn_Complex/pvector.cpp
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/4_Rpn_Complex/pvector.h
 rpn.h
-/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/4_Rpn_Complex/rpn.h
-rpn.cpp
-/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/4_Rpn_Complex/rpn.cpp
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/4_Rpn_Complex/rpn.h
 
-/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/4_Rpn_Complex/pvector.cpp
-pvector.h
-/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/4_Rpn_Complex/pvector.h
-
-/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/4_Rpn_Complex/pvector.h
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/4_Rpn_Complex/pvector.h
 iostream
 -
 fstream
 -
 vector
-/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/4_Rpn_Complex/vector
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/4_Rpn_Complex/vector
 
-/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/4_Rpn_Complex/rpn.cpp
-rpn.h
-/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/4_Rpn_Complex/rpn.h
-
-/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/4_Rpn_Complex/rpn.h
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/4_Rpn_Complex/rpn.h
 iostream
 -
 fstream
 -
 pvector.h
-/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/4_Rpn_Complex/pvector.h
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/4_Rpn_Complex/pvector.h
 map
 -
 complex

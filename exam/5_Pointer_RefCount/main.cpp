@@ -4,9 +4,10 @@
 using namespace std;
 
 /*
-Implement a dumb_pointer.  Use the operator* and operator->
-operators to implement a class that simulates a pointer.
- - Implement another class that works like the dumb_pointer but is called smart_pointer and uses reference counting.
+Implement a dumb_pointer.
+ - Use the operator* and operator-> operators to implement a class that simulates a pointer.
+
+ Implement another class that works like the dumb_pointer but is called smart_pointer and uses reference counting.
  - No, using any of the C++ auto_ptr, unique_ptr, shared_ptr, weak_ptr classes is not an implementation option
 */
 
@@ -131,11 +132,6 @@ public:
     smart_pointer<T> &operator=(T &o) {
         if (obj != &o) // Avoid self assignment
         {
-            // Decrement the old reference count
-            // if reference become zero delete the old data
-            // example: q pointing x, check if only one, then delete its object
-            // say smrt ptr u also points to x, decreasing will not result to 0, x does not get deleted but
-            // reference count to x still needs to be decremented
             if (ref->release() == 0) {
                 delete obj;
                 delete ref;
@@ -176,8 +172,8 @@ int main() {
     s2.push_back(1);
     s2.push_back(2);
     smart_pointer<vector<int>> sp2;
-    sp2 = s2;
-    cout << sp2.count() << endl;
+    sp2 = &s2;
+    cout << "ref count: " << sp2.count() << endl;
     cout << "smart: " << sp2->size() << endl;
 
    /* smart_pointer<vector<int>> sp1(s1);

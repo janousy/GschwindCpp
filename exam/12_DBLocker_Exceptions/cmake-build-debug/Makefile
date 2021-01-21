@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise2
+CMAKE_SOURCE_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/exam/12_DBLocker_Exceptions
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise2/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/exam/12_DBLocker_Exceptions/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise2/cmake-build-debug/CMakeFiles /Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise2/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/exam/12_DBLocker_Exceptions/cmake-build-debug/CMakeFiles /Users/janoschbaltensperger/repos/GeschwindCpp/exam/12_DBLocker_Exceptions/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/exam/12_DBLocker_Exceptions/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named exercise2
+# Target rules for targets named DBLocker_Exceptions
 
 # Build rule for target.
-exercise2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercise2
-.PHONY : exercise2
+DBLocker_Exceptions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DBLocker_Exceptions
+.PHONY : DBLocker_Exceptions
 
 # fast build rule for target.
-exercise2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/build
-.PHONY : exercise2/fast
+DBLocker_Exceptions/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DBLocker_Exceptions.dir/build.make CMakeFiles/DBLocker_Exceptions.dir/build
+.PHONY : DBLocker_Exceptions/fast
 
 main.o: main.cpp.o
 
@@ -149,7 +149,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DBLocker_Exceptions.dir/build.make CMakeFiles/DBLocker_Exceptions.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -158,7 +158,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DBLocker_Exceptions.dir/build.make CMakeFiles/DBLocker_Exceptions.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -167,35 +167,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DBLocker_Exceptions.dir/build.make CMakeFiles/DBLocker_Exceptions.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-pvector.o: pvector.cpp.o
-
-.PHONY : pvector.o
-
-# target to build an object file
-pvector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/pvector.cpp.o
-.PHONY : pvector.cpp.o
-
-pvector.i: pvector.cpp.i
-
-.PHONY : pvector.i
-
-# target to preprocess a source file
-pvector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/pvector.cpp.i
-.PHONY : pvector.cpp.i
-
-pvector.s: pvector.cpp.s
-
-.PHONY : pvector.s
-
-# target to generate assembly for a file
-pvector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/pvector.cpp.s
-.PHONY : pvector.cpp.s
 
 # Help Target
 help:
@@ -205,13 +178,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... exercise2"
+	@echo "... DBLocker_Exceptions"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... pvector.o"
-	@echo "... pvector.i"
-	@echo "... pvector.s"
 .PHONY : help
 
 

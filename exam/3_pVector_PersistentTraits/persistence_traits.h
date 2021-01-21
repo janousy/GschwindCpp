@@ -11,8 +11,12 @@ using namespace std;
 
 template<typename T>
 struct persistence_traits {
-    static void read(ifstream &ifs, T &elem);
-    static void write(ofstream &ofs, const T &elem);
+    static void read(ifstream &ifs, T &elem){
+        ifs >> elem;
+    }
+    static void write(ofstream &ofs, const T &elem) {
+        ofs << elem << endl;
+    }
 };
 
 

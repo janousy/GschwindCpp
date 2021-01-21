@@ -21,34 +21,114 @@ private:
     string input_line;
 
 public:
-    void read_input(pvector<T> &pv);
+    void read_input(pvector<T> &pv) {
+        char op;
+        while (cin.good() && op != 'q') {
+            T number;
+            cout << "command: ";
+            getline(cin, input_line);
+            istringstream iss(input_line);
+            while (iss.good() && iss >> op) {
+                switch (op) {
+                    case 'n':
+                        iss >> number;
+                        pv.push_back(number);
+                        continue;
+                    case 'd':
+                        if (pv.size() > 0) { pv.pop_back(); }
+                        else { cout << "cannot delete"; }
+                        continue;
+                    case 'q':
+                        break;
+                    case '+':
+                        add(pv);
+                        continue;
+                    case '-':
+                        subtract(pv);
+                        continue;
+                    case '*':
+                        multiply(pv);
+                        continue;
+                    case '/':
+                        divide(pv);
+                        continue;
+                    case 'm':
+                        mymin(pv);
+                        continue;
+                    default:
+                        cout << "invalid input" << endl;
+                        break;
+                }
+            }
+            pv.print_vector();
+        }
+    }
 
-    void mymin(pvector<T> &pv);
 
-    void add(pvector<T> &pv);
+    inline
+    void mymin(pvector<complex<int>> &pv) {
+        cout << "no order on complex numbers" << endl;
+        return;
+    }
 
-    void subtract(pvector<T> &pv);
+    void mymin(pvector<T> &pv){
+        if (!has_valid_size(pv)) {
+            return;
+        } else {
+            T min_val = std::min(pv.at(pv.size() - 2), pv.at(pv.size() - 1));
+            pv.pop_back();
+            pv.pop_back();
+            pv.push_back(min_val);
+            return;
+        }
+    }
 
-    void multiply(pvector<T> &pv);
+    void add(pvector<T> &pv){
+        if (!has_valid_size(pv)) {
+            return;
+        } else {
+            T res = pv.at(pv.size() - 2) + pv.at(pv.size() - 1);
+            pv.pop_back();
+            pv.pop_back();
+            pv.push_back(res);
+        }
+    }
 
-    void divide(pvector<T> &pv);
+    void subtract(pvector<T> &pv){
+        if (!has_valid_size(pv)) {
+            return;
+        } else {
+            T res = pv.at(pv.size() - 2) - pv.at(pv.size() - 1);
+            pv.pop_back();
+            pv.pop_back();
+            pv.push_back(res);
+            return;
+        }
+    }
+
+    void multiply(pvector<T> &pv){
+        if (!has_valid_size(pv)) {
+            return;
+        } else {
+            T res = pv.at(pv.size() - 2) * pv.at(pv.size() - 1);
+            pv.pop_back();
+            pv.pop_back();
+            pv.push_back(res);
+            return;
+        }
+    }
+
+    void divide(pvector<T> &pv){
+        if (!has_valid_size(pv)) {
+            return;
+        } else {
+            T res = pv.at(pv.size() - 2) / pv.at(pv.size() - 1);
+            pv.pop_back();
+            pv.pop_back();
+            pv.push_back(res);
+            return;
+        }
+    }
 };
-
-/*template<typename C>
-class rpn<complex<C>> {
-private:
-    bool has_valid_size(pvector<complex<C>> &pv);
-
-public:
-    void mymin(pvector<complex<C>> &pv);
-
-    void add(pvector<complex<C>> &pv);
-
-    void subtract(pvector<complex<C>> &pv);
-
-    void mult(pvector<complex<C>> &pv);
-
-    void divide(pvector<complex<C>> &pv);
-};*/
 
 #endif //EXERCISE3_RPN_H

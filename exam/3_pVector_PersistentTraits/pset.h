@@ -29,13 +29,43 @@ public:
         write_set();
     }
 
-    void read_set();
+    void read_set() {
+        ifstream ifs(filename);
+        if (!ifs.is_open()) {
+            cout << "invalid file" << endl;
+            return;
+        }
 
-    void write_set();
+        //read from ifs until end of file (eof)
+        while(true) {
+            T x;
+            persister::read(ifs,x);
+            if(ifs.eof()) {break;}
+            s.insert(x);
+        }
+    };
 
-    void insert(T elem);
 
-    void print_set();
+    void write_set() {
+        ofstream ofs(filename);
+        iterator fst = s.begin();
+        iterator lst = s.end();
+        while(fst!=lst) persister::write(ofs,*fst++);
+    };
+
+    void insert(T elem) {
+        s.insert(elem);
+    }
+
+    void print_set() {
+        iterator fst = s.begin();
+        iterator lst = s.end();
+        while(fst!=lst) {
+            cout << *fst << " ";
+            fst++;
+        }
+        cout << endl;
+    };
 };
 
 

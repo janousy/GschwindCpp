@@ -64,16 +64,16 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise2
+CMAKE_SOURCE_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/exam/12_DBLocker_Exceptions
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise2/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/janoschbaltensperger/repos/GeschwindCpp/exam/12_DBLocker_Exceptions/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/exercise2.dir/all
+all: CMakeFiles/DBLocker_Exceptions.dir/all
 
 .PHONY : all
 
@@ -83,36 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/exercise2.dir/clean
+clean: CMakeFiles/DBLocker_Exceptions.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/exercise2.dir
+# Target rules for target CMakeFiles/DBLocker_Exceptions.dir
 
 # All Build rule for target.
-CMakeFiles/exercise2.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise2/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target exercise2"
-.PHONY : CMakeFiles/exercise2.dir/all
+CMakeFiles/DBLocker_Exceptions.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DBLocker_Exceptions.dir/build.make CMakeFiles/DBLocker_Exceptions.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DBLocker_Exceptions.dir/build.make CMakeFiles/DBLocker_Exceptions.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/janoschbaltensperger/repos/GeschwindCpp/exam/12_DBLocker_Exceptions/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target DBLocker_Exceptions"
+.PHONY : CMakeFiles/DBLocker_Exceptions.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/exercise2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise2/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/exercise2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/LE6/exercise2/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/exercise2.dir/rule
+CMakeFiles/DBLocker_Exceptions.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/exam/12_DBLocker_Exceptions/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DBLocker_Exceptions.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janoschbaltensperger/repos/GeschwindCpp/exam/12_DBLocker_Exceptions/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/DBLocker_Exceptions.dir/rule
 
 # Convenience name for target.
-exercise2: CMakeFiles/exercise2.dir/rule
+DBLocker_Exceptions: CMakeFiles/DBLocker_Exceptions.dir/rule
 
-.PHONY : exercise2
+.PHONY : DBLocker_Exceptions
 
 # clean rule for target.
-CMakeFiles/exercise2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/clean
-.PHONY : CMakeFiles/exercise2.dir/clean
+CMakeFiles/DBLocker_Exceptions.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DBLocker_Exceptions.dir/build.make CMakeFiles/DBLocker_Exceptions.dir/clean
+.PHONY : CMakeFiles/DBLocker_Exceptions.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

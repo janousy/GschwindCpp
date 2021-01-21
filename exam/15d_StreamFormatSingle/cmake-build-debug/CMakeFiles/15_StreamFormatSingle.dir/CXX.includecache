@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/15d_StreamFormatSingle/main.cpp
+iostream
+-
+future
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/15d_StreamFormatSingle/future
+

@@ -16,9 +16,7 @@ Make sure your RPN calculator runs fine with complex numbers
 
 #include <complex>
 #include "pvector.h"
-#include "pvector.cpp"
 #include "rpn.h"
-#include "rpn.cpp"
 
 using namespace std;
 

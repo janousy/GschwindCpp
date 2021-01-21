@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug"/>
+				<Option working_dir="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug"/>
+				<Option working_dir="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug"/>
+				<Option working_dir="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pVector_Persistent">
-				<Option output="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/pVector_Persistent" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug"/>
+				<Option output="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/pVector_Persistent" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 pVector_Persistent"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 pVector_Persistent"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pVector_Persistent/fast">
-				<Option output="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/pVector_Persistent" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug"/>
+				<Option output="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/pVector_Persistent" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,35 +73,35 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 pVector_Persistent/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 pVector_Persistent/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/main.cpp">
+		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/main.cpp">
 			<Option target="pVector_Persistent"/>
 		</Unit>
-		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/persistence_traits.cpp">
+		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/persistence_traits.cpp">
 			<Option target="pVector_Persistent"/>
 		</Unit>
-		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/persistence_traits.h">
+		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/persistence_traits.h">
 			<Option target="pVector_Persistent"/>
 		</Unit>
-		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/pset.cpp">
+		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/pset.cpp">
 			<Option target="pVector_Persistent"/>
 		</Unit>
-		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/pset.h">
+		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/pset.h">
 			<Option target="pVector_Persistent"/>
 		</Unit>
-		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/pvector.cpp">
+		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/pvector.cpp">
 			<Option target="pVector_Persistent"/>
 		</Unit>
-		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/pvector.h">
+		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/pvector.h">
 			<Option target="pVector_Persistent"/>
 		</Unit>
-		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/exercises/3_pVector_PersistentTraits/CMakeLists.txt">
+		<Unit filename="/Users/janoschbaltensperger/repos/GeschwindCpp/exam/3_pVector_PersistentTraits/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

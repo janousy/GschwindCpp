@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/12_DBLocker_Exceptions/main.cpp
+iostream
+-
+complex.h
+-
+pvector.h
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/12_DBLocker_Exceptions/pvector.h
+
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/12_DBLocker_Exceptions/pvector.h
+iostream
+-
+fstream
+-
+vector
+/Users/janoschbaltensperger/repos/GeschwindCpp/exam/12_DBLocker_Exceptions/vector
+
